@@ -258,7 +258,15 @@ YAML_HEADER = """# =============================================================
 # 2. IMPORTANT: Generate the Spanish sentence FIRST, then translate to English.
 #    This ensures natural Spanish construction rather than literal translation.
 #
-# 3. The additional_elements list contains advanced grammatical constructions
+# 3. IMPORTANT: The sentence must include BOTH:
+#    - The main verb conjugated in the basic tense (present/preterite/imperfect/future)
+#    - AND the additional_elements constructions (if any)
+#    The additional_elements should NOT replace the basic verb+tense usage.
+#    For example, if verb=comer, tense=present, additional=deber_infinitive:
+#    CORRECT: "Debo comer más verduras, pero como muy rápido." (uses both debo+inf AND como)
+#    WRONG: "Debo comer más verduras." (only uses deber+infinitive, missing present tense)
+#
+# 4. The additional_elements list contains advanced grammatical constructions
 #    that should be woven into the sentence. For example:
 #    - "present_perfect" -> use "haber + past participle" (he comido)
 #    - "deber_infinitive" -> use "deber + infinitive" (debo comer)

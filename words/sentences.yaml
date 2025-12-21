@@ -15,7 +15,15 @@
 # 2. IMPORTANT: Generate the Spanish sentence FIRST, then translate to English.
 #    This ensures natural Spanish construction rather than literal translation.
 #
-# 3. The additional_elements list contains advanced grammatical constructions
+# 3. IMPORTANT: The sentence must include BOTH:
+#    - The main verb conjugated in the basic tense (present/preterite/imperfect/future)
+#    - AND the additional_elements constructions (if any)
+#    The additional_elements should NOT replace the basic verb+tense usage.
+#    For example, if verb=comer, tense=present, additional=deber_infinitive:
+#    CORRECT: "Debo comer más verduras, pero como muy rápido." (uses both debo+inf AND como)
+#    WRONG: "Debo comer más verduras." (only uses deber+infinitive, missing present tense)
+#
+# 4. The additional_elements list contains advanced grammatical constructions
 #    that should be woven into the sentence. For example:
 #    - "present_perfect" -> use "haber + past participle" (he comido)
 #    - "deber_infinitive" -> use "deber + infinitive" (debo comer)
@@ -52,8 +60,8 @@ sentences:
     english: you all are going to
   - spanish: van a
     english: they are going to
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Voy a dibujar una bala ahora, y mañana dibujaré un paisaje completo.
+  english: I am going to draw a bullet now, and tomorrow I will draw a complete landscape.
 - word: cocina_508
   verb: girar_262
   tense: present
@@ -72,15 +80,15 @@ sentences:
     english: you all need to
   - spanish: necesitan
     english: they need to
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Necesito girar la silla, y cuando giro veo la cocina desde aquí.
+  english: I need to turn the chair, and when I turn I see the kitchen from here.
 - word: vasto_896
   verb: fijar_142
   tense: imperfect
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Fijaba la mirada en el vasto horizonte cada mañana.
+  english: I used to fix my gaze on the vast horizon every morning.
 - word: físico_923
   verb: ver_9
   tense: present
@@ -100,8 +108,8 @@ sentences:
     english: you all have (subj.)
   - spanish: hayan
     english: they have (subj.)
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Veo el cambio físico en él, y me sorprendería que no lo hayas visto tú también.
+  english: I see the physical change in him, and I would be surprised if you haven't seen it too.
 - word: nos_34
   verb: contribuir_226
   tense: future
@@ -120,8 +128,8 @@ sentences:
     english: you all want
   - spanish: quieren
     english: they want
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Queremos contribuir a la causa, y contribuiremos con todo lo que nos sea posible.
+  english: We want to contribute to the cause, and we will contribute with everything possible for us.
 - word: amargo_484
   verb: comprender_127
   tense: future
@@ -140,8 +148,8 @@ sentences:
     english: you all must/should
   - spanish: deben
     english: they must/should
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Debes comprender por qué el café está amargo, y pronto comprenderás todo el proceso.
+  english: You should understand why the coffee is bitter, and soon you will understand the whole process.
 - word: momento_86
   verb: comunicar_218
   tense: present
@@ -149,8 +157,8 @@ sentences:
   - conditional
   - imperative_negative
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: En este momento comunico la noticia, pero no comuniques nada aún; yo comunicaría más tarde si fuera necesario.
+  english: At this moment I communicate the news, but don't communicate anything yet; I would communicate later if necessary.
 - word: elección_751
   verb: descansar_279
   tense: present
@@ -170,8 +178,8 @@ sentences:
     english: you all are
   - spanish: están
     english: they are
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Descanso después de la elección porque estoy agotado, y descansaría más si pudiera.
+  english: I rest after the election because I am exhausted, and I would rest more if I could.
 - word: reunión_355
   verb: bailar_278
   tense: imperfect
@@ -190,16 +198,16 @@ sentences:
     english: yourselves
   - spanish: se
     english: themselves
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: En la reunión, me animaba bailando, y bailaba sin parar toda la noche.
+  english: At the meeting, I cheered myself up by dancing, and I danced nonstop all night.
 - word: bolsa_524
   verb: robar_281
   tense: present
   additional_elements:
   - imperative_negative
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: ¡No robes la bolsa! Ese hombre roba a menudo, pero tú no debes hacerlo.
+  english: Don't steal the bag! That man steals often, but you shouldn't do it.
 - word: necesario_185
   verb: ofrecer_89
   tense: future
@@ -231,24 +239,24 @@ sentences:
     english: you all are
   - spanish: están
     english: they are
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Necesito ofrecer ayuda porque es necesario, y mañana ofreceré más cuando esté preparado.
+  english: I need to offer help because it is necessary, and tomorrow I will offer more when I am prepared.
 - word: enojado_810
   verb: ocurrir_45
   tense: present
   additional_elements:
   - imperative_negative
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: No te pongas enojado cuando algo ocurre mal; estas cosas ocurren a menudo.
+  english: Don't get angry when something happens wrong; these things happen often.
 - word: seguridad_419
   verb: significar_178
   tense: present
   additional_elements:
   - imperfect_subjunctive
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: La seguridad significa mucho para nosotros, y desearía que significara lo mismo para todos.
+  english: Security means a lot to us, and I would wish that it meant the same for everyone.
 - word: hierro_616
   verb: conservar_258
   tense: future
@@ -268,8 +276,8 @@ sentences:
     english: you all have to
   - spanish: tienen que
     english: they have to
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Tienes que conservar el hierro en un lugar seco, y el año próximo conservarás más; no lo dejes afuera.
+  english: You have to keep the iron in a dry place, and next year you will keep more; don't leave it outside.
 - word: ritmo_683
   verb: aprende_183
   tense: future
@@ -288,8 +296,8 @@ sentences:
     english: you all have
   - spanish: han
     english: they have
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: He aprendido el ritmo de esta canción, y pronto aprenderé la melodía completa.
+  english: I have learned the rhythm of this song, and soon I will learn the complete melody.
 - word: edificio_502
   verb: contener_222
   tense: imperfect
@@ -308,8 +316,8 @@ sentences:
     english: you all will have
   - spanish: habrán
     english: they will have
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: El edificio contenía muchas oficinas, y para el próximo año habremos contenido todo el archivo allí.
+  english: The building used to contain many offices, and by next year we will have contained all the files there.
 - word: acuerdo_761
   verb: tratar_33
   tense: imperfect
@@ -328,8 +336,8 @@ sentences:
     english: you all have to
   - spanish: tienen que
     english: they have to
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Teníamos que tratar de llegar a un acuerdo, y tratábamos de negociar cada día.
+  english: We had to try to reach an agreement, and we used to try to negotiate every day.
 - word: tiempo_50
   verb: lanzar_132
   tense: future
@@ -349,15 +357,15 @@ sentences:
     english: you all would have
   - spanish: habrían
     english: they would have
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Con más tiempo lanzaré el proyecto, lanzaría antes si pudiera, y habría lanzado ayer si hubiera tenido los recursos.
+  english: With more time I will launch the project, I would launch earlier if I could, and I would have launched yesterday if I had had the resources.
 - word: cárcel_733
   verb: traer_71
   tense: present
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Le traigo comida a mi hermano que está en la cárcel cada semana.
+  english: I bring food to my brother who is in prison every week.
 - word: serie_337
   verb: negar_162
   tense: preterite
@@ -377,8 +385,8 @@ sentences:
     english: you all would have
   - spanish: habrían
     english: they would have
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Él negó haber visto la serie, pero yo habría negado lo mismo; no niegues lo que es obvio.
+  english: He denied having seen the series, but I would have denied the same thing; don't deny what is obvious.
 - word: delante_451
   verb: sonreír_143
   tense: present
@@ -397,8 +405,8 @@ sentences:
     english: you all are
   - spanish: son
     english: they are
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Sonrío cuando estoy delante de la cámara porque soy fotografiado a menudo.
+  english: I smile when I am in front of the camera because I am often photographed.
 - word: común_791
   verb: abrir_64
   tense: future
@@ -417,8 +425,8 @@ sentences:
     english: you all have to
   - spanish: tienen que
     english: they have to
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Tengo que abrir la puerta común ahora, y el lunes abriré todas las demás.
+  english: I have to open the common door now, and on Monday I will open all the others.
 - word: papel_351
   verb: abrazar_269
   tense: imperfect
@@ -437,8 +445,8 @@ sentences:
     english: you all are going to
   - spanish: van a
     english: they are going to
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Iba a abrazar a mi amigo, y siempre lo abrazaba cuando tenía el papel de protagonista.
+  english: I was going to hug my friend, and I always used to hug him when he had the lead role.
 - word: cerrado_468
   verb: explicar_101
   tense: preterite
@@ -458,8 +466,8 @@ sentences:
     english: you all have
   - spanish: han
     english: they have
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Expliqué por qué el museo estaba cerrado, ya he explicado esto antes; no me expliques lo obvio.
+  english: I explained why the museum was closed, I have already explained this before; don't explain the obvious to me.
 - word: cristal_623
   verb: aprovechar_157
   tense: preterite
@@ -478,8 +486,8 @@ sentences:
     english: you all are
   - spanish: son
     english: they are
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: El cristal fue aprovechado para decorar, y aprovechamos cada pieza que encontramos.
+  english: The glass was used for decoration, and we took advantage of every piece we found.
 - word: corto_477
   verb: recordar_49
   tense: preterite
@@ -498,15 +506,15 @@ sentences:
     english: you all are going to
   - spanish: van a
     english: they are going to
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Voy a recordar este momento corto, y recordé todos los detalles del viaje.
+  english: I am going to remember this short moment, and I remembered all the details of the trip.
 - word: gas_615
   verb: formar_70
   tense: preterite
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: El gas formó una nube densa sobre la ciudad aquella mañana.
+  english: The gas formed a dense cloud over the city that morning.
 - word: pendiente_555
   verb: lograr_78
   tense: imperfect
@@ -514,8 +522,8 @@ sentences:
   - conditional
   - imperfect_subjunctive
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Lograba resolver los asuntos pendientes, lograría más si tuviera tiempo, y deseaba que lo lograra antes.
+  english: I used to manage to resolve the pending matters, I would achieve more if I had time, and I wished that I managed it sooner.
 - word: memoria_366
   verb: atraer_236
   tense: preterite
@@ -547,8 +555,8 @@ sentences:
     english: you all would have
   - spanish: habrían
     english: they would have
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Voy a atraer más atención a mi memoria, la atraje ayer en la conferencia, y habría atraído más si hubiera tenido más tiempo.
+  english: I am going to attract more attention to my memory, I attracted it yesterday at the conference, and I would have attracted more if I had had more time.
 - word: revolución_771
   verb: impedir_115
   tense: imperfect
@@ -567,8 +575,8 @@ sentences:
     english: you all are going to
   - spanish: van a
     english: they are going to
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Iba a impedir la revolución, y la impedía siempre que podía en aquella época.
+  english: I was going to prevent the revolution, and I used to prevent it whenever I could in that era.
 - word: queso_631
   verb: reservar_209
   tense: present
@@ -587,15 +595,15 @@ sentences:
     english: you all are
   - spanish: están
     english: they are
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: El queso está reservado para la fiesta, y reservo más cada semana.
+  english: The cheese is reserved for the party, and I reserve more every week.
 - word: espiritual_941
   verb: exprimir_291
   tense: preterite
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Exprimí el significado espiritual de cada palabra durante la meditación.
+  english: I squeezed out the spiritual meaning of every word during meditation.
 - word: terrible_798
   verb: entender_46
   tense: preterite
@@ -627,8 +635,8 @@ sentences:
     english: you all have (subj.)
   - spanish: hayan
     english: they have (subj.)
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Entendí la situación terrible, necesitaba entenderla mejor, y espero que hayas entendido también.
+  english: I understood the terrible situation, I needed to understand it better, and I hope that you have understood as well.
 - word: bosque_497
   verb: negar_162
   tense: future
@@ -647,8 +655,8 @@ sentences:
     english: you all have (subj.)
   - spanish: hayan
     english: they have (subj.)
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: No negaré que el bosque es hermoso, aunque dudo que alguien lo haya negado alguna vez.
+  english: I will not deny that the forest is beautiful, although I doubt that anyone has ever denied it.
 - word: científico_925
   verb: calcular_250
   tense: preterite
@@ -667,8 +675,8 @@ sentences:
     english: yourselves
   - spanish: se
     english: themselves
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: El método científico se calculó con precisión, y calculé los resultados dos veces.
+  english: The scientific method was calculated precisely, and I calculated the results twice.
 - word: largo_370
   verb: comprobar_201
   tense: present
@@ -687,22 +695,22 @@ sentences:
     english: you all can
   - spanish: pueden
     english: they can
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Puedo comprobar que el camino es largo, y compruebo los detalles ahora mismo.
+  english: I can verify that the road is long, and I check the details right now.
 - word: horno_597
   verb: decir_7
   tense: present
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Siempre digo que hay que precalentar el horno antes de cocinar.
+  english: I always say that you have to preheat the oven before cooking.
 - word: bombero_721
   verb: definir_242
   tense: imperfect
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: El bombero definía su trabajo como una vocación de servicio.
+  english: The firefighter used to define his job as a calling of service.
 - word: favor_54
   verb: crear_63
   tense: future
@@ -721,8 +729,8 @@ sentences:
     english: you all want
   - spanish: quieren
     english: they want
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Quiero crear algo a tu favor, y crearé un documento oficial mañana.
+  english: I want to create something in your favor, and I will create an official document tomorrow.
 - word: instante_427
   verb: salvar_270
   tense: preterite
@@ -741,8 +749,8 @@ sentences:
     english: you all had (subj.)
   - spanish: hubieran
     english: they had (subj.)
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: En ese instante lo salvé de caer, y ojalá lo hubiera salvado antes.
+  english: In that instant I saved him from falling, and I wish I had saved him earlier.
 - word: señor_57
   verb: faltar_196
   tense: future
@@ -761,8 +769,8 @@ sentences:
     english: you all had (subj.)
   - spanish: hubieran
     english: they had (subj.)
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Al señor le faltará tiempo, y ojalá no le hubiera faltado antes.
+  english: The gentleman will lack time, and I wish he had not lacked it before.
 - word: medida_265
   verb: respirar_294
   tense: present
@@ -794,8 +802,8 @@ sentences:
     english: you all are
   - spanish: están
     english: they are
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Respiro profundamente en gran medida, estoy respirando ahora, y ojalá hubiera respirado así antes.
+  english: I breathe deeply to a great extent, I am breathing now, and I wish I had breathed like this before.
 - word: ejército_773
   verb: quejar_290
   tense: present
@@ -815,16 +823,16 @@ sentences:
     english: you all are
   - spanish: están
     english: they are
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Me quejo del ejército constantemente, estoy quejándome ahora mismo; no te quejes tú también.
+  english: I complain about the army constantly, I am complaining right now; don't you complain too.
 - word: espacio_186
   verb: andar_149
   tense: imperfect
   additional_elements:
   - imperative_affirmative
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Andaba por el espacio abierto cada tarde; anda tú también por aquí.
+  english: I used to walk through the open space every afternoon; walk through here too.
 - word: abierto_467
   verb: encontrar_24
   tense: imperfect
@@ -843,37 +851,37 @@ sentences:
     english: you all can
   - spanish: pueden
     english: they can
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Podía encontrar el mercado abierto fácilmente, y encontraba frutas frescas allí cada semana.
+  english: I could find the open market easily, and I used to find fresh fruits there every week.
 - word: popular_790
   verb: presentar_62
   tense: future
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Presentaré el programa popular en la televisión mañana por la noche.
+  english: I will present the popular program on television tomorrow night.
 - word: derecho_175
   verb: disponer_117
   tense: imperfect
   additional_elements:
   - imperative_negative
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Disponía de mi derecho a votar libremente; no dispongas del dinero sin permiso.
+  english: I had my right to vote freely available; don't use the money without permission.
 - word: agua_151
   verb: buscar_38
   tense: imperfect
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Buscaba agua limpia en el desierto durante horas cada día.
+  english: I used to search for clean water in the desert for hours every day.
 - word: confianza_742
   verb: ayudar_94
   tense: future
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Te ayudaré porque tengo confianza en ti y en tus capacidades.
+  english: I will help you because I have confidence in you and in your abilities.
 - word: mientras_114
   verb: tocar_80
   tense: imperfect
@@ -892,8 +900,8 @@ sentences:
     english: you all are
   - spanish: son
     english: they are
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Mientras tocaba la guitarra, la canción era escuchada por todos en la sala.
+  english: While I played the guitar, the song was heard by everyone in the room.
 - word: domingo_429
   verb: identificar_213
   tense: present
@@ -912,8 +920,8 @@ sentences:
     english: you all have
   - spanish: han
     english: they have
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Identifico el problema cada domingo, y ya he identificado varias soluciones posibles.
+  english: I identify the problem every Sunday, and I have already identified several possible solutions.
 - word: gato_966
   verb: perder_43
   tense: preterite
@@ -945,22 +953,22 @@ sentences:
     english: you all had (subj.)
   - spanish: hubieran
     english: they had (subj.)
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Voy a perder el gato si no cierro la puerta; lo perdí ayer, y ojalá no lo hubiera perdido.
+  english: I am going to lose the cat if I don't close the door; I lost it yesterday, and I wish I had not lost it.
 - word: como_19
   verb: afirmar_140
   tense: imperfect
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Como siempre afirmaba mi abuelo, la paciencia es una virtud.
+  english: As my grandfather always used to affirm, patience is a virtue.
 - word: libro_190
   verb: jugar_88
   tense: imperfect
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: De niño, jugaba con un libro viejo como si fuera un tesoro.
+  english: As a child, I used to play with an old book as if it were a treasure.
 - word: pierna_415
   verb: existir_39
   tense: imperfect
@@ -992,8 +1000,8 @@ sentences:
     english: you all want
   - spanish: quieren
     english: they want
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: El dolor en mi pierna existía cada día, quería que desapareciera, y podía caminar poco.
+  english: The pain in my leg used to exist every day, I wanted it to disappear, and I could walk little.
 - word: plato_590
   verb: eliminar_254
   tense: preterite
@@ -1013,15 +1021,15 @@ sentences:
     english: you all want
   - spanish: quieren
     english: they want
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Quería eliminar el plato del menú, lo eliminé ayer, y espero que a todos les guste el cambio.
+  english: I wanted to eliminate the dish from the menu, I eliminated it yesterday, and I hope everyone likes the change.
 - word: jugo_667
   verb: destacar_259
   tense: preterite
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: El jugo de naranja destacó entre todas las bebidas en la fiesta.
+  english: The orange juice stood out among all the drinks at the party.
 - word: bandera_764
   verb: caber_167
   tense: preterite
@@ -1040,8 +1048,8 @@ sentences:
     english: you all can
   - spanish: pueden
     english: they can
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: La bandera no cupo en la maleta, pero pude doblarla y así cupimos todos en el coche.
+  english: The flag did not fit in the suitcase, but I was able to fold it and that way we all fit in the car.
 - word: papel_222
   verb: otorgar_264
   tense: imperfect
@@ -1073,23 +1081,23 @@ sentences:
     english: you all are going to
   - spanish: van a
     english: they are going to
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Le otorgaba el papel principal porque ya le había otorgado otros antes, y voy a otorgarle más.
+  english: I used to grant him the main role because I had already granted him others before, and I am going to grant him more.
 - word: cuchillo_587
   verb: recuperar_260
   tense: imperfect
   additional_elements:
   - imperfect_subjunctive
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Recuperaba el cuchillo perdido cada vez, y deseaba que lo recuperara más rápido.
+  english: I used to recover the lost knife each time, and I wished that I would recover it faster.
 - word: herramienta_582
   verb: callar_273
   tense: preterite
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Me callé cuando vi la herramienta rota en el suelo.
+  english: I fell silent when I saw the broken tool on the floor.
 - word: clase_300
   verb: demostrar_116
   tense: preterite
@@ -1108,8 +1116,8 @@ sentences:
     english: you all are
   - spanish: están
     english: they are
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Demostré mi teoría en clase, y ahora está demostrada por todos los expertos.
+  english: I demonstrated my theory in class, and now it is proven by all the experts.
 - word: naranja_639
   verb: soltar_189
   tense: present
@@ -1128,16 +1136,16 @@ sentences:
     english: you all have (subj.)
   - spanish: hayan
     english: they have (subj.)
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Suelto la naranja en la mesa, y espero que no la hayas soltado tú también.
+  english: I release the orange on the table, and I hope that you haven't dropped it too.
 - word: experiencia_387
   verb: cuidar_266
   tense: future
   additional_elements:
   - imperative_affirmative
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Cuidaré esta experiencia con cariño; cuida tú también tus recuerdos.
+  english: I will take care of this experience with affection; take care of your memories too.
 - word: educación_365
   verb: echar_158
   tense: present
@@ -1156,8 +1164,8 @@ sentences:
     english: you all would have
   - spanish: habrían
     english: they would have
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Echo de menos una buena educación, y habría echado más esfuerzo si hubiera sabido.
+  english: I miss a good education, and I would have put more effort if I had known.
 - word: suelto_880
   verb: cocinar_229
   tense: future
@@ -1176,8 +1184,8 @@ sentences:
     english: you all were
   - spanish: estaban
     english: they were
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Cocinaré el arroz suelto mañana; ayer estaba cocinando cuando llegaste.
+  english: I will cook the loose rice tomorrow; yesterday I was cooking when you arrived.
 - word: profesor_335
   verb: ir_8
   tense: imperfect
@@ -1196,15 +1204,15 @@ sentences:
     english: you all were
   - spanish: estaban
     english: they were
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: El profesor iba a la universidad cada día, y estaba yendo cuando le llamaron.
+  english: The professor used to go to the university every day, and he was going when they called him.
 - word: su_17
   verb: enviar_232
   tense: imperfect
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Enviaba cartas a su madre todos los domingos sin falta.
+  english: He used to send letters to his mother every Sunday without fail.
 - word: nueve_203
   verb: servir_55
   tense: imperfect
@@ -1223,16 +1231,16 @@ sentences:
     english: you all are
   - spanish: están
     english: they are
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: El restaurante servía nueve platos diferentes, y ahora estoy sirviendo la cena.
+  english: The restaurant used to serve nine different dishes, and now I am serving dinner.
 - word: que_2
   verb: aplicar_135
   tense: present
   additional_elements:
   - conditional
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Aplico las reglas que me enseñaron, y aplicaría más si tuviera tiempo.
+  english: I apply the rules that they taught me, and I would apply more if I had time.
 - word: gracia_39
   verb: destacar_259
   tense: future
@@ -1251,8 +1259,8 @@ sentences:
     english: you all can
   - spanish: pueden
     english: they can
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Gracias a tu ayuda, puedo destacar en mi trabajo, y pronto destacaré aún más.
+  english: Thanks to your help, I can stand out in my work, and soon I will stand out even more.
 - word: cambio_291
   verb: hacer_5
   tense: imperfect
@@ -1271,8 +1279,8 @@ sentences:
     english: you all would have
   - spanish: habrían
     english: they would have
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Hacía el cambio todos los días, y habría hecho más si hubiera tenido tiempo.
+  english: I used to make the change every day, and I would have done more if I had had time.
 - word: río_494
   verb: ser_1
   tense: future
@@ -1304,16 +1312,16 @@ sentences:
     english: yourselves
   - spanish: se
     english: themselves
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: El río será protegido por las nuevas leyes, y me alegro de que se conserve limpio; eso será importante para todos.
+  english: The river will be protected by the new laws, and I am glad that it will be kept clean; that will be important for everyone.
 - word: profesor_248
   verb: facilitar_246
   tense: present
   additional_elements:
   - imperative_negative
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: El profesor facilita el aprendizaje con ejemplos claros; no facilites las respuestas a los estudiantes.
+  english: The professor facilitates learning with clear examples; don't make the answers easy for the students.
 - word: escalera_507
   verb: mantener_58
   tense: present
@@ -1345,8 +1353,8 @@ sentences:
     english: you all are
   - spanish: están
     english: they are
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Mantengo la escalera limpia ahora, estaba manteniéndola ayer, y estoy manteniéndola todos los días.
+  english: I keep the stairs clean now, I was keeping them clean yesterday, and I am keeping them clean every day.
 - word: amplio_897
   verb: asistir_249
   tense: preterite
@@ -1365,8 +1373,8 @@ sentences:
     english: you all had (subj.)
   - spanish: hubieran
     english: they had (subj.)
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Asistí al evento en el salón amplio, y ojalá hubiera asistido antes.
+  english: I attended the event in the large hall, and I wish I had attended earlier.
 - word: fiebre_714
   verb: tirar_186
   tense: future
@@ -1385,8 +1393,8 @@ sentences:
     english: you all are
   - spanish: están
     english: they are
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Tiraré las medicinas viejas mañana porque la fiebre ya pasó; estoy tirando las cajas vacías ahora.
+  english: I will throw away the old medicines tomorrow because the fever has passed; I am throwing away the empty boxes now.
 - word: enorme_892
   verb: cubrir_161
   tense: present
@@ -1405,8 +1413,8 @@ sentences:
     english: you all had
   - spanish: habían
     english: they had
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Cubro la mesa enorme con un mantel, y ya había cubierto las sillas antes.
+  english: I cover the enormous table with a tablecloth, and I had already covered the chairs before.
 - word: otro_77
   verb: cantar_277
   tense: future
@@ -1425,23 +1433,23 @@ sentences:
     english: you all were
   - spanish: estaban
     english: they were
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Cantaré otra canción mañana; ayer estaba cantando cuando llegaste.
+  english: I will sing another song tomorrow; yesterday I was singing when you arrived.
 - word: flexible_912
   verb: surgir_191
   tense: preterite
   additional_elements:
   - imperfect_subjunctive
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: La idea flexible surgió de repente, y deseaba que surgiera antes.
+  english: The flexible idea arose suddenly, and I wished that it would emerge earlier.
 - word: normal_793
   verb: conseguir_53
   tense: future
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Conseguiré un trabajo normal el próximo mes si todo va bien.
+  english: I will get a normal job next month if everything goes well.
 - word: baño_509
   verb: discutir_193
   tense: preterite
@@ -1460,16 +1468,16 @@ sentences:
     english: you all want
   - spanish: quieren
     english: they want
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Quería discutir el tema del baño, y discutimos durante horas ayer.
+  english: I wanted to discuss the bathroom topic, and we discussed for hours yesterday.
 - word: propio_178
   verb: querer_12
   tense: preterite
   additional_elements:
   - imperative_negative
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Quise tener mi propio coche, pero no lo conseguí; no quieras demasiado.
+  english: I wanted to have my own car, but I didn't get it; don't want too much.
 - word: privado_843
   verb: suponer_104
   tense: present
@@ -1488,15 +1496,15 @@ sentences:
     english: you all have to
   - spanish: tienen que
     english: they have to
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Supongo que es un asunto privado, y tengo que suponer lo mejor.
+  english: I suppose it is a private matter, and I have to assume the best.
 - word: falta_201
   verb: medir_195
   tense: preterite
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Medí la falta de recursos y tomé una decisión difícil.
+  english: I measured the lack of resources and made a difficult decision.
 - word: patria_766
   verb: modificar_205
   tense: present
@@ -1528,8 +1536,8 @@ sentences:
     english: you all have
   - spanish: han
     english: they have
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Modifico las leyes de la patria ahora, he modificado varias antes, y ojalá las hubiera modificado más temprano.
+  english: I modify the laws of the homeland now, I have modified several before, and I wish I had modified them earlier.
 - word: estable_910
   verb: suponer_76
   tense: future
@@ -1548,8 +1556,8 @@ sentences:
     english: you all are
   - spanish: son
     english: they are
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Supondré que la situación es estable, y será supuesto por todos que mejorará.
+  english: I will suppose that the situation is stable, and it will be assumed by everyone that it will improve.
 - word: esposa_294
   verb: planear_248
   tense: imperfect
@@ -1568,8 +1576,8 @@ sentences:
     english: you all have (subj.)
   - spanish: hayan
     english: they have (subj.)
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Mi esposa planeaba las vacaciones cada año, y espero que haya planeado bien esta vez.
+  english: My wife used to plan the vacations every year, and I hope she has planned well this time.
 - word: calcetín_539
   verb: pensar_27
   tense: present
@@ -1588,8 +1596,8 @@ sentences:
     english: you all have to
   - spanish: tienen que
     english: they have to
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Pienso en comprar un calcetín nuevo, y tengo que pensar bien antes de gastar.
+  english: I think about buying a new sock, and I have to think well before spending.
 - word: ya_25
   verb: contar_35
   tense: present
@@ -1621,8 +1629,8 @@ sentences:
     english: you all want
   - spanish: quieren
     english: they want
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Ya cuento con tu apoyo, necesito contarte algo, y quiero contar la historia completa.
+  english: I already count on your support, I need to tell you something, and I want to tell the whole story.
 - word: competencia_695
   verb: calcular_250
   tense: imperfect
@@ -1641,16 +1649,16 @@ sentences:
     english: you all have (subj.)
   - spanish: hayan
     english: they have (subj.)
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Calculaba el nivel de la competencia cada mes, y dudo que hayan calculado bien los resultados.
+  english: I used to calculate the level of the competition every month, and I doubt that they have calculated the results well.
 - word: diez_211
   verb: estudiar_82
   tense: future
   additional_elements:
   - present_subjunctive
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Estudiaré durante diez horas, y espero que mi hermano estudie también.
+  english: I will study for ten hours, and I hope that my brother studies too.
 - word: cuenta_425
   verb: actuar_210
   tense: preterite
@@ -1669,15 +1677,15 @@ sentences:
     english: yourselves
   - spanish: se
     english: themselves
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Me di cuenta de que actuó mal, y se arrepintió de su comportamiento.
+  english: I realized that he acted badly, and he regretted his behavior.
 - word: falda_529
   verb: coger_122
   tense: imperfect
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Cogía la falda del armario cada mañana antes de salir.
+  english: I used to take the skirt from the wardrobe every morning before leaving.
 - word: nada_35
   verb: bajar_164
   tense: future
@@ -1696,8 +1704,8 @@ sentences:
     english: you all have (subj.)
   - spanish: hayan
     english: they have (subj.)
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: No bajaré nada del ático, y dudo que hayas bajado algo útil.
+  english: I will not bring down anything from the attic, and I doubt that you have brought down anything useful.
 - word: automático_929
   verb: venir_26
   tense: future
@@ -1716,15 +1724,15 @@ sentences:
     english: you all are
   - spanish: están
     english: they are
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: El proceso automático vendrá pronto, y ya está preparado para funcionar.
+  english: The automatic process will come soon, and it is already prepared to work.
 - word: material_399
   verb: acabar_67
   tense: imperfect
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: El material acababa rápidamente porque lo usábamos mucho.
+  english: The material used to run out quickly because we used it a lot.
 - word: enchufe_608
   verb: dirigir_100
   tense: future
@@ -1743,8 +1751,8 @@ sentences:
     english: you all are
   - spanish: están
     english: they are
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Dirigiré el proyecto del enchufe eléctrico, y el equipo está dirigido por mí ahora.
+  english: I will direct the electrical plug project, and the team is led by me now.
 - word: policía_299
   verb: compartir_247
   tense: future
@@ -1763,16 +1771,16 @@ sentences:
     english: you all are going to
   - spanish: van a
     english: they are going to
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Voy a compartir la información con la policía, y la compartiré mañana oficialmente.
+  english: I am going to share the information with the police, and I will share it officially tomorrow.
 - word: próximo_849
   verb: garantizar_261
   tense: preterite
   additional_elements:
   - imperfect_subjunctive
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Garanticé el próximo paso del proceso, como si lo garantizara personalmente cada vez.
+  english: I guaranteed the next step of the process, as if I guaranteed it personally each time.
 - word: vino_669
   verb: utilizar_86
   tense: imperfect
@@ -1791,8 +1799,8 @@ sentences:
     english: you all have
   - spanish: han
     english: they have
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Antes utilizaba vino tinto para cocinar, pero he utilizado vino blanco esta vez.
+  english: Before I used to use red wine for cooking, but I have used white wine this time.
 - word: sol_283
   verb: comenzar_54
   tense: future
@@ -1811,8 +1819,8 @@ sentences:
     english: you all are
   - spanish: son
     english: they are
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: El evento comenzará cuando el sol salga, y será comenzado con un himno nacional.
+  english: The event will begin when the sun rises, and it will be started with a national anthem.
 - word: religioso_940
   verb: conocer_31
   tense: future
@@ -1831,38 +1839,38 @@ sentences:
     english: you all were
   - spanish: estaban
     english: they were
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Mañana conoceré al líder religioso que estaba conociendo a la comunidad durante años.
+  english: Tomorrow I will meet the religious leader who was getting to know the community for years.
 - word: terrenal_945
   verb: quejar_290
   tense: preterite
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Me quejé de los placeres terrenales que no me satisfacían.
+  english: I complained about the earthly pleasures that did not satisfy me.
 - word: cable_607
   verb: pasar_14
   tense: imperfect
   additional_elements:
   - imperfect_subjunctive
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: El cable pasaba por debajo de la puerta, como si no pasara nada extraño.
+  english: The cable passed under the door, as if nothing strange were happening.
 - word: selvático_960
   verb: casarse_284
   tense: preterite
   additional_elements:
   - imperative_affirmative
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Me casé en un lugar selvático, así que ¡cásate tú también en la naturaleza!
+  english: I got married in a jungle place, so get married in nature too!
 - word: ilegal_935
   verb: proteger_202
   tense: imperfect
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: La policía protegía la frontera contra el tráfico ilegal de mercancías.
+  english: The police protected the border against illegal trafficking of goods.
 - word: testigo_732
   verb: añadir_155
   tense: preterite
@@ -1881,15 +1889,15 @@ sentences:
     english: you all must/should
   - spanish: deben
     english: they must/should
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: El testigo añadió nuevos detalles, y debo añadir que fueron cruciales para el caso.
+  english: The witness added new details, and I must add that they were crucial to the case.
 - word: estudio_288
   verb: conseguir_53
   tense: present
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Consigo buenos resultados en mi estudio cuando me concentro.
+  english: I get good results in my study when I concentrate.
 - word: pantalón_528
   verb: ofrecer_89
   tense: imperfect
@@ -1908,8 +1916,8 @@ sentences:
     english: you all must/should
   - spanish: deben
     english: they must/should
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: La tienda ofrecía descuentos en pantalones, y debía ofrecer más variedad.
+  english: The store offered discounts on pants, and should have offered more variety.
 - word: contento_808
   verb: estudiar_159
   tense: preterite
@@ -1928,8 +1936,8 @@ sentences:
     english: you all are
   - spanish: son
     english: they are
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Estudié el tema muy contento, y el material fue estudiado por todos mis compañeros también.
+  english: I studied the topic very happily, and the material was studied by all my classmates too.
 - word: relación_230
   verb: sentir_32
   tense: present
@@ -1937,8 +1945,8 @@ sentences:
   - imperfect_subjunctive
   - imperative_negative
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Siento que nuestra relación es especial, aunque quisieras que sintiera más, pero no sientas presión.
+  english: I feel that our relationship is special, even if you wanted me to feel more, but don't feel pressure.
 - word: febrero_437
   verb: estudiar_82
   tense: imperfect
@@ -1957,8 +1965,8 @@ sentences:
     english: you all need to
   - spanish: necesitan
     english: they need to
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: En febrero estudiaba todos los días, y ahora necesito estudiar aún más para los exámenes.
+  english: In February I used to study every day, and now I need to study even more for the exams.
 - word: algo_29
   verb: reconocer_103
   tense: preterite
@@ -1977,8 +1985,8 @@ sentences:
     english: yourselves
   - spanish: se
     english: themselves
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Reconocí algo familiar en la foto, y me reconocí en ella después de tantos años.
+  english: I recognized something familiar in the photo, and I recognized myself in it after so many years.
 - word: carácter_375
   verb: oír_187
   tense: imperfect
@@ -1997,8 +2005,8 @@ sentences:
     english: you all were
   - spanish: estaban
     english: they were
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Yo oía historias sobre su carácter difícil mientras estaba oyendo las quejas de los demás.
+  english: I used to hear stories about his difficult character while I was hearing the complaints of others.
 - word: gracioso_820
   verb: poder_6
   tense: future
@@ -2017,8 +2025,8 @@ sentences:
     english: you all have
   - spanish: han
     english: they have
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: He podido hacer algo gracioso, y mañana podré hacerlo de nuevo.
+  english: I have been able to do something funny, and tomorrow I will be able to do it again.
 - word: condición_317
   verb: ofrecer_89
   tense: present
@@ -2037,8 +2045,8 @@ sentences:
     english: you all need to
   - spanish: necesitan
     english: they need to
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Ofrezco mis servicios bajo una condición, pero necesito ofrecer más detalles primero.
+  english: I offer my services under one condition, but I need to offer more details first.
 - word: billete_561
   verb: llegar_13
   tense: preterite
@@ -2057,8 +2065,8 @@ sentences:
     english: you all are
   - spanish: están
     english: they are
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Ayer llegué sin el billete, y ahora estoy llegando con tiempo de sobra.
+  english: Yesterday I arrived without the ticket, and now I am arriving with time to spare.
 - word: igual_242
   verb: invertir_287
   tense: imperfect
@@ -2077,8 +2085,8 @@ sentences:
     english: yourselves
   - spanish: se
     english: themselves
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Invertía cantidades iguales cada mes, y el dinero se invertía automáticamente.
+  english: I used to invest equal amounts each month, and the money was invested automatically.
 - word: joven_150
   verb: provocar_184
   tense: imperfect
@@ -2097,8 +2105,8 @@ sentences:
     english: you all would have
   - spanish: habrían
     english: they would have
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: De joven provocaba muchos conflictos, pero habría provocado menos si hubiera sido más maduro.
+  english: As a young person I used to cause many conflicts, but I would have caused fewer if I had been more mature.
 - word: lámpara_517
   verb: contribuir_226
   tense: imperfect
@@ -2117,8 +2125,8 @@ sentences:
     english: you all had
   - spanish: habían
     english: they had
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Contribuía con dinero para la lámpara nueva, pero ya había contribuido antes.
+  english: I used to contribute money for the new lamp, but I had already contributed before.
 - word: tipo_418
   verb: explicar_101
   tense: imperfect
@@ -2150,15 +2158,15 @@ sentences:
     english: you all need to
   - spanish: necesitan
     english: they need to
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Explicaba este tipo de problemas a los estudiantes, habría explicado mejor con más tiempo, pero necesito explicar más ejemplos.
+  english: I used to explain this type of problems to students, I would have explained better with more time, but I need to explain more examples.
 - word: pastel_661
   verb: reconocer_81
   tense: imperfect
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Reconocía el pastel de mi abuela por su olor delicioso.
+  english: I used to recognize my grandmother's cake by its delicious smell.
 - word: cara_199
   verb: liberar_208
   tense: preterite
@@ -2190,8 +2198,8 @@ sentences:
     english: you all had
   - spanish: habían
     english: they had
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Liberé mi cara del estrés, espero que haya liberado mis emociones, ya que había liberado tensión antes.
+  english: I freed my face from stress, I hope I have freed my emotions, since I had freed tension before.
 - word: tijeras_586
   verb: anunciar_197
   tense: imperfect
@@ -2210,8 +2218,8 @@ sentences:
     english: you all want
   - spanish: quieren
     english: they want
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: La tienda anunciaba tijeras nuevas cada semana, y ahora quiero anunciar una oferta especial.
+  english: The store used to announce new scissors every week, and now I want to announce a special offer.
 - word: verde_326
   verb: partir_72
   tense: future
@@ -2230,8 +2238,8 @@ sentences:
     english: you all are
   - spanish: están
     english: they are
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Mañana partiré hacia el campo verde, pero ahora estoy partiendo las manzanas en trozos.
+  english: Tomorrow I will leave for the green countryside, but now I am cutting the apples into pieces.
 - word: antipático_824
   verb: confesar_182
   tense: future
@@ -2250,15 +2258,15 @@ sentences:
     english: you all would have
   - spanish: habrían
     english: they would have
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Confesaré que fui antipático, aunque habría confesado antes si hubiera tenido el valor.
+  english: I will confess that I was unpleasant, although I would have confessed earlier if I had had the courage.
 - word: enfermedad_703
   verb: quedar_18
   tense: preterite
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Quedé en casa debido a la enfermedad durante varios días.
+  english: I stayed at home due to the illness for several days.
 - word: provincial_950
   verb: mentir_282
   tense: preterite
@@ -2277,8 +2285,8 @@ sentences:
     english: you all need to
   - spanish: necesitan
     english: they need to
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Mentí sobre mi origen provincial, pero ahora no necesito mentir más.
+  english: I lied about my provincial origin, but now I don't need to lie anymore.
 - word: sofá_516
   verb: comprender_127
   tense: preterite
@@ -2297,8 +2305,8 @@ sentences:
     english: you all were
   - spanish: estaban
     english: they were
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Comprendí por qué le gustaba ese sofá cuando estaba comprendiendo su historia familiar.
+  english: I understood why he liked that sofa when I was understanding his family history.
 - word: obvio_865
   verb: detener_144
   tense: present
@@ -2318,15 +2326,15 @@ sentences:
     english: you all have (subj.)
   - spanish: hayan
     english: they have (subj.)
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Detengo el tráfico cuando es obvio que hay peligro, no detengas a nadie hasta que se haya detenido el ruido.
+  english: I stop the traffic when it's obvious there is danger, don't stop anyone until the noise has stopped.
 - word: independiente_837
   verb: limpiar_228
   tense: future
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Limpiaré mi apartamento de manera independiente sin ayuda de nadie.
+  english: I will clean my apartment independently without anyone's help.
 - word: pesado_878
   verb: enviar_232
   tense: present
@@ -2346,8 +2354,8 @@ sentences:
     english: you all are
   - spanish: están
     english: they are
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Envío el paquete pesado hoy, enviaría otro mañana, pero ahora estoy enviando solo este.
+  english: I send the heavy package today, I would send another tomorrow, but now I am sending only this one.
 - word: interior_360
   verb: detener_144
   tense: preterite
@@ -2379,8 +2387,8 @@ sentences:
     english: you all would have
   - spanish: habrían
     english: they would have
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Detuve el proceso en el interior, el proyecto está detenido, y habría detenido más si fuera necesario.
+  english: I stopped the process inside, the project is stopped, and I would have stopped more if necessary.
 - word: olla_595
   verb: escribir_42
   tense: future
@@ -2399,15 +2407,15 @@ sentences:
     english: you all had
   - spanish: habían
     english: they had
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Escribiré una receta sobre la olla de mi abuela, ya que había escrito notas sobre ella antes.
+  english: I will write a recipe about my grandmother's pot, since I had written notes about it before.
 - word: famoso_789
   verb: comprender_77
   tense: future
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Comprenderé por qué ese autor se hizo tan famoso cuando lea su libro.
+  english: I will understand why that author became so famous when I read his book.
 - word: mes_189
   verb: asegurar_120
   tense: preterite
@@ -2426,23 +2434,23 @@ sentences:
     english: you all need to
   - spanish: necesitan
     english: they need to
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Aseguré el contrato el mes pasado, pero necesito asegurar otro antes de diciembre.
+  english: I assured the contract last month, but I need to assure another one before December.
 - word: siempre_67
   verb: terminar_50
   tense: future
   additional_elements:
   - imperative_negative
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Siempre terminaré lo que empiezo, pero no termines antes de revisar todo.
+  english: I will always finish what I start, but don't finish before reviewing everything.
 - word: respuesta_356
   verb: alcanzar_83
   tense: present
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Alcanzo la respuesta correcta después de mucha reflexión.
+  english: I reach the correct answer after much reflection.
 - word: maravilloso_800
   verb: facilitar_246
   tense: future
@@ -2461,15 +2469,15 @@ sentences:
     english: you all will have
   - spanish: habrán
     english: they will have
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Facilitaré este proceso maravilloso, y para mañana habré facilitado todos los trámites.
+  english: I will facilitate this wonderful process, and by tomorrow I will have facilitated all the procedures.
 - word: temporal_903
   verb: haber_3
   tense: imperfect
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Había un trabajo temporal disponible en la empresa.
+  english: There was a temporary job available at the company.
 - word: gaseoso_921
   verb: fumar_280
   tense: future
@@ -2488,29 +2496,29 @@ sentences:
     english: you all have to
   - spanish: tienen que
     english: they have to
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: No fumaré en espacios con sustancias gaseosas, pero tengo que fumar menos en general.
+  english: I will not smoke in spaces with gaseous substances, but I have to smoke less in general.
 - word: divino_943
   verb: subir_163
   tense: preterite
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Subí a la montaña y vi un paisaje divino.
+  english: I climbed the mountain and saw a divine landscape.
 - word: cuarto_331
   verb: abandonar_194
   tense: future
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Abandonaré el cuarto al final del mes.
+  english: I will leave the room at the end of the month.
 - word: crimen_728
   verb: ganar_69
   tense: present
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: No gano nada con cometer un crimen.
+  english: I gain nothing by committing a crime.
 - word: práctica_397
   verb: presentar_62
   tense: present
@@ -2529,23 +2537,23 @@ sentences:
     english: you all want
   - spanish: quieren
     english: they want
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Presento la teoría en clase, pero quiero presentar más práctica.
+  english: I present the theory in class, but I want to present more practice.
 - word: sucio_464
   verb: aparecer_52
   tense: future
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Apareceré limpio, no sucio como la última vez.
+  english: I will appear clean, not dirty like last time.
 - word: principio_394
   verb: aparecer_52
   tense: imperfect
   additional_elements:
   - present_subjunctive
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: El principio aparecía claro, aunque dudo que aparezca tan evidente para todos.
+  english: The principle appeared clear, although I doubt it appears that evident to everyone.
 - word: rojo_312
   verb: instalar_298
   tense: present
@@ -2577,8 +2585,8 @@ sentences:
     english: you all must/should
   - spanish: deben
     english: they must/should
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Instalo el cable rojo ahora, ya he instalado el azul, y debo instalar el verde después.
+  english: I install the red cable now, I have already installed the blue one, and I must install the green one after.
 - word: sonido_681
   verb: convertir_141
   tense: present
@@ -2597,8 +2605,8 @@ sentences:
     english: you all want
   - spanish: quieren
     english: they want
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Convierto el sonido en texto, y quiero convertir más archivos mañana.
+  english: I convert the sound into text, and I want to convert more files tomorrow.
 - word: enemigo_745
   verb: dedicar_128
   tense: imperfect
@@ -2617,8 +2625,8 @@ sentences:
     english: you all had
   - spanish: habían
     english: they had
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Dedicaba tiempo a estudiar a mi enemigo, ya que había dedicado años a entender sus tácticas.
+  english: I used to dedicate time to studying my enemy, since I had dedicated years to understanding their tactics.
 - word: químico_922
   verb: proteger_202
   tense: present
@@ -2637,8 +2645,8 @@ sentences:
     english: you all have (subj.)
   - spanish: hayan
     english: they have (subj.)
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Protejo el laboratorio de productos químicos, esperando que haya protegido todo correctamente.
+  english: I protect the laboratory from chemical products, hoping that I have protected everything correctly.
 - word: frío_462
   verb: referir_176
   tense: future
@@ -2657,15 +2665,15 @@ sentences:
     english: you all are
   - spanish: están
     english: they are
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Me referiré al clima frío, el cual está referido en el informe meteorológico.
+  english: I will refer to the cold weather, which is referred to in the weather report.
 - word: reloj_523
   verb: rezar_240
   tense: imperfect
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Rezaba cada día mirando el reloj de la iglesia.
+  english: I used to pray every day looking at the church clock.
 - word: huevo_632
   verb: apresar_207
   tense: imperfect
@@ -2684,8 +2692,8 @@ sentences:
     english: you all are
   - spanish: están
     english: they are
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Apretaba el huevo con cuidado, porque ya estaba apretado en la caja.
+  english: I used to squeeze the egg carefully, because it was already squeezed in the box.
 - word: estación_491
   verb: organizar_216
   tense: preterite
@@ -2704,16 +2712,16 @@ sentences:
     english: you all need to
   - spanish: necesitan
     english: they need to
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Organicé el viaje a la estación, pero necesito organizar mejor los horarios.
+  english: I organized the trip to the station, but I need to organize the schedules better.
 - word: real_196
   verb: expresar_151
   tense: future
   additional_elements:
   - imperfect_subjunctive
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Expresaré mis sentimientos reales, aunque quisiera que expresara más emoción antes.
+  english: I will express my real feelings, although I wished I had expressed more emotion before.
 - word: empresa_257
   verb: observar_129
   tense: imperfect
@@ -2745,8 +2753,8 @@ sentences:
     english: you all must/should
   - spanish: deben
     english: they must/should
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Observaba la empresa desde lejos, he observado sus cambios, y debo observar más de cerca.
+  english: I used to observe the company from afar, I have observed its changes, and I must observe more closely.
 - word: entrenador_694
   verb: destacar_259
   tense: imperfect
@@ -2766,8 +2774,8 @@ sentences:
     english: you all have
   - spanish: han
     english: they have
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: El entrenador destacaba por su dedicación, ha destacado en su carrera, y quería que destacara más.
+  english: The trainer stood out for his dedication, he has stood out in his career, and I wanted him to stand out more.
 - word: promesa_741
   verb: acompañar_185
   tense: present
@@ -2799,15 +2807,15 @@ sentences:
     english: you all want
   - spanish: quieren
     english: they want
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Acompaño a mi amigo con una promesa, estaba acompañándolo antes, y quiero acompañarlo siempre.
+  english: I accompany my friend with a promise, I was accompanying him before, and I want to accompany him always.
 - word: regalo_578
   verb: partir_72
   tense: present
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Parto para comprar un regalo para mi madre.
+  english: I leave to buy a gift for my mother.
 - word: segundo_158
   verb: trabajar_41
   tense: present
@@ -2826,8 +2834,8 @@ sentences:
     english: you all have (subj.)
   - spanish: hayan
     english: they have (subj.)
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Trabajo en mi segundo proyecto, espero que haya trabajado suficiente esta semana.
+  english: I work on my second project, I hope I have worked enough this week.
 - word: gasolina_613
   verb: recibir_48
   tense: preterite
@@ -2847,16 +2855,16 @@ sentences:
     english: you all have (subj.)
   - spanish: hayan
     english: they have (subj.)
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Recibí la gasolina ayer, espero que reciba más mañana, y que haya recibido todo correctamente.
+  english: I received the gasoline yesterday, I hope I receive more tomorrow, and that I have received everything correctly.
 - word: literatura_393
   verb: publicar_265
   tense: imperfect
   additional_elements:
   - imperative_affirmative
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Publicaba literatura cada mes, así que ¡publica tu propio libro también!
+  english: I used to publish literature every month, so publish your own book too!
 - word: cerdo_970
   verb: aplicar_135
   tense: preterite
@@ -2888,8 +2896,8 @@ sentences:
     english: you all have (subj.)
   - spanish: hayan
     english: they have (subj.)
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Apliqué el tratamiento al cerdo, si hubiera aplicado antes sería mejor, espero que haya aplicado correctamente.
+  english: I applied the treatment to the pig, if I had applied earlier it would be better, I hope I have applied correctly.
 - word: baloncesto_689
   verb: seguir_23
   tense: future
@@ -2908,8 +2916,8 @@ sentences:
     english: you all are
   - spanish: están
     english: they are
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Seguiré jugando baloncesto, el partido está seguido por muchos aficionados.
+  english: I will continue playing basketball, the game is followed by many fans.
 - word: estructura_362
   verb: permitir_51
   tense: preterite
@@ -2928,8 +2936,8 @@ sentences:
     english: you all want
   - spanish: quieren
     english: they want
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Permití cambios en la estructura, y quiero permitir más mejoras pronto.
+  english: I allowed changes to the structure, and I want to allow more improvements soon.
 - word: aburrido_817
   verb: modificar_205
   tense: preterite
@@ -2949,8 +2957,8 @@ sentences:
     english: you all have to
   - spanish: tienen que
     english: they have to
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: Modifiqué el diseño aburrido, no modifiques sin consultar, pero tengo que modificar más detalles.
+  english: I modified the boring design, don't modify without consulting, but I have to modify more details.
 - word: aspecto_402
   verb: mentir_282
   tense: future
@@ -2969,8 +2977,8 @@ sentences:
     english: you all had
   - spanish: habían
     english: they had
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: No mentiré sobre ese aspecto, ya que había mentido antes y fue un error.
+  english: I will not lie about that aspect, since I had lied before and it was a mistake.
 - word: mujer_93
   verb: preguntar_96
   tense: imperfect
@@ -3002,8 +3010,8 @@ sentences:
     english: you all have
   - spanish: han
     english: they have
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: La mujer preguntaba mucho, ojalá hubiera preguntado menos, pero he preguntado lo mismo.
+  english: The woman used to ask a lot, I wish she had asked less, but I have asked the same.
 - word: robusto_918
   verb: trabajar_41
   tense: imperfect
