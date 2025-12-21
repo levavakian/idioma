@@ -1,0 +1,5002 @@
+# Top 1000 Most Common Spanish Non-Verb Words
+# Sources: RAE CREA corpus, Mark Davies Frequency Dictionary, Wiktionary subtitle corpus
+
+de_1:
+  spanish: de
+  english: ["of", "from"]
+  form: preposition
+
+que_2:
+  spanish: que
+  english: ["that", "which"]
+  form: conjunction
+
+no_3:
+  spanish: "no"
+  english: ["no", "not"]
+  form: adverb
+
+a_4:
+  spanish: a
+  english: ["to", "at"]
+  form: preposition
+
+y_5:
+  spanish: y
+  english: ["and"]
+  form: conjunction
+
+en_6:
+  spanish: en
+  english: ["in", "on", "at"]
+  form: preposition
+
+por_7:
+  spanish: por
+  english: ["for", "by", "through"]
+  form: preposition
+
+qué_8:
+  spanish: qué
+  english: ["what", "which"]
+  form: pronoun
+
+con_9:
+  spanish: con
+  english: ["with"]
+  form: preposition
+
+para_10:
+  spanish: para
+  english: ["for", "to", "in order to"]
+  form: preposition
+
+mi_11:
+  spanish: mi
+  english: ["my"]
+  form: adjective
+
+pero_12:
+  spanish: pero
+  english: ["but"]
+  form: conjunction
+
+sí_13:
+  spanish: sí
+  english: ["yes"]
+  form: adverb
+
+si_14:
+  spanish: si
+  english: ["if"]
+  form: conjunction
+
+bien_15:
+  spanish: bien
+  english: ["well", "good"]
+  form: adverb
+
+ese_16:
+  spanish: ["ese", "esa"]
+  english: ["that"]
+  form: pronoun
+
+su_17:
+  spanish: su
+  english: ["his", "her", "your", "their"]
+  form: adjective
+
+yo_18:
+  spanish: yo
+  english: ["I"]
+  form: pronoun
+
+como_19:
+  spanish: como
+  english: ["like", "as", "how"]
+  form: conjunction
+
+aquí_20:
+  spanish: aquí
+  english: ["here"]
+  form: adverb
+
+tu_21:
+  spanish: tu
+  english: ["your"]
+  form: adjective
+
+más_22:
+  spanish: más
+  english: ["more", "most"]
+  form: adverb
+
+este_23:
+  spanish: ["este", "esta"]
+  english: ["this"]
+  form: pronoun
+
+todo_24:
+  spanish: ["todo", "toda"]
+  english: ["all", "everything", "every"]
+  form: adjective
+
+ya_25:
+  spanish: ya
+  english: ["already", "now"]
+  form: adverb
+
+ahora_26:
+  spanish: ahora
+  english: ["now"]
+  form: adverb
+
+muy_27:
+  spanish: muy
+  english: ["very"]
+  form: adverb
+
+así_28:
+  spanish: así
+  english: ["like this", "so", "thus"]
+  form: adverb
+
+algo_29:
+  spanish: algo
+  english: ["something"]
+  form: pronoun
+
+bueno_30:
+  spanish: ["bueno", "buena"]
+  english: ["good"]
+  form: adjective
+
+él_31:
+  spanish: él
+  english: ["he", "him"]
+  form: pronoun
+
+cuando_32:
+  spanish: cuando
+  english: ["when"]
+  form: conjunction
+
+tú_33:
+  spanish: tú
+  english: ["you"]
+  form: pronoun
+
+nos_34:
+  spanish: nos
+  english: ["us", "ourselves"]
+  form: pronoun
+
+nada_35:
+  spanish: nada
+  english: ["nothing"]
+  form: pronoun
+
+cómo_36:
+  spanish: cómo
+  english: ["how"]
+  form: adverb
+
+o_37:
+  spanish: o
+  english: ["or"]
+  form: conjunction
+
+ella_38:
+  spanish: ella
+  english: ["she", "her"]
+  form: pronoun
+
+gracia_39:
+  spanish: gracia
+  english: ["grace", "thanks"]
+  form: noun
+
+vez_40:
+  spanish: vez
+  english: ["time", "occasion"]
+  form: noun
+
+solo_41:
+  spanish: ["solo", "sola"]
+  english: ["alone", "only"]
+  form: adjective
+
+porque_42:
+  spanish: porque
+  english: ["because"]
+  form: conjunction
+
+usted_43:
+  spanish: usted
+  english: ["you"]
+  form: pronoun
+
+entonces_44:
+  spanish: entonces
+  english: ["then", "so"]
+  form: adverb
+
+hola_45:
+  spanish: hola
+  english: ["hello"]
+  form: interjection
+
+verdad_46:
+  spanish: verdad
+  english: ["truth", "true"]
+  form: noun
+
+casa_47:
+  spanish: casa
+  english: ["house", "home"]
+  form: noun
+
+tan_48:
+  spanish: tan
+  english: ["so", "as"]
+  form: adverb
+
+quién_49:
+  spanish: quién
+  english: ["who", "whom"]
+  form: pronoun
+
+tiempo_50:
+  spanish: tiempo
+  english: ["time", "weather"]
+  form: noun
+
+dos_51:
+  spanish: dos
+  english: ["two"]
+  form: adjective
+
+nunca_52:
+  spanish: nunca
+  english: ["never"]
+  form: adverb
+
+dónde_53:
+  spanish: dónde
+  english: ["where"]
+  form: adverb
+
+favor_54:
+  spanish: favor
+  english: ["favor", "please"]
+  form: noun
+
+mucho_55:
+  spanish: ["mucho", "mucha"]
+  english: ["much", "a lot"]
+  form: adjective
+
+mí_56:
+  spanish: mí
+  english: ["me"]
+  form: pronoun
+
+señor_57:
+  spanish: señor
+  english: ["sir", "mister", "Mr."]
+  form: noun
+
+mejor_58:
+  spanish: mejor
+  english: ["better", "best"]
+  form: adjective
+
+también_59:
+  spanish: también
+  english: ["also", "too"]
+  form: adverb
+
+sobre_60:
+  spanish: sobre
+  english: ["about", "on", "over"]
+  form: preposition
+
+dios_61:
+  spanish: dios
+  english: ["god"]
+  form: noun
+
+sin_62:
+  spanish: sin
+  english: ["without"]
+  form: preposition
+
+hombre_63:
+  spanish: hombre
+  english: ["man"]
+  form: noun
+
+vida_64:
+  spanish: vida
+  english: ["life"]
+  form: noun
+
+alguien_65:
+  spanish: alguien
+  english: ["someone", "somebody"]
+  form: pronoun
+
+cosa_66:
+  spanish: cosa
+  english: ["thing"]
+  form: noun
+
+siempre_67:
+  spanish: siempre
+  english: ["always"]
+  form: adverb
+
+hasta_68:
+  spanish: hasta
+  english: ["until", "up to", "even"]
+  form: preposition
+
+ahí_69:
+  spanish: ahí
+  english: ["there"]
+  form: adverb
+
+año_70:
+  spanish: año
+  english: ["year"]
+  form: noun
+
+antes_71:
+  spanish: antes
+  english: ["before"]
+  form: adverb
+
+ni_72:
+  spanish: ni
+  english: ["neither", "nor"]
+  form: conjunction
+
+poco_73:
+  spanish: ["poco", "poca"]
+  english: ["little", "few"]
+  form: adjective
+
+día_74:
+  spanish: día
+  english: ["day"]
+  form: noun
+
+uno_75:
+  spanish: ["uno", "una"]
+  english: ["one", "a"]
+  form: adjective
+
+noche_76:
+  spanish: noche
+  english: ["night"]
+  form: noun
+
+otro_77:
+  spanish: ["otro", "otra"]
+  english: ["other", "another"]
+  form: adjective
+
+acuerdo_78:
+  spanish: acuerdo
+  english: ["agreement", "accord"]
+  form: noun
+
+trabajo_79:
+  spanish: trabajo
+  english: ["work", "job"]
+  form: noun
+
+nosotros_80:
+  spanish: ["nosotros", "nosotras"]
+  english: ["we", "us"]
+  form: pronoun
+
+gente_81:
+  spanish: gente
+  english: ["people"]
+  form: noun
+
+padre_82:
+  spanish: padre
+  english: ["father"]
+  form: noun
+
+mismo_83:
+  spanish: ["mismo", "misma"]
+  english: ["same", "self"]
+  form: adjective
+
+nadie_84:
+  spanish: nadie
+  english: ["nobody", "no one"]
+  form: pronoun
+
+señora_85:
+  spanish: señora
+  english: ["lady", "Mrs.", "ma'am"]
+  form: noun
+
+momento_86:
+  spanish: momento
+  english: ["moment"]
+  form: noun
+
+grande_87:
+  spanish: grande
+  english: ["big", "large", "great"]
+  form: adjective
+
+claro_88:
+  spanish: ["claro", "clara"]
+  english: ["clear", "of course"]
+  form: adjective
+
+mundo_89:
+  spanish: mundo
+  english: ["world"]
+  form: noun
+
+donde_90:
+  spanish: donde
+  english: ["where"]
+  form: adverb
+
+madre_91:
+  spanish: madre
+  english: ["mother"]
+  form: noun
+
+amigo_92:
+  spanish: ["amigo", "amiga"]
+  english: ["friend"]
+  form: noun
+
+mujer_93:
+  spanish: mujer
+  english: ["woman", "wife"]
+  form: noun
+
+dinero_94:
+  spanish: dinero
+  english: ["money"]
+  form: noun
+
+después_95:
+  spanish: después
+  english: ["after", "later"]
+  form: adverb
+
+tres_96:
+  spanish: tres
+  english: ["three"]
+  form: adjective
+
+nuevo_97:
+  spanish: ["nuevo", "nueva"]
+  english: ["new"]
+  form: adjective
+
+ellos_98:
+  spanish: ["ellos", "ellas"]
+  english: ["they", "them"]
+  form: pronoun
+
+tipo_99:
+  spanish: tipo
+  english: ["type", "kind", "guy"]
+  form: noun
+
+mal_100:
+  spanish: mal
+  english: ["bad", "badly", "wrong"]
+  form: adverb
+
+cierto_101:
+  spanish: ["cierto", "cierta"]
+  english: ["certain", "true"]
+  form: adjective
+
+nombre_102:
+  spanish: nombre
+  english: ["name"]
+  form: noun
+
+hijo_103:
+  spanish: ["hijo", "hija"]
+  english: ["son", "daughter", "child"]
+  form: noun
+
+allí_104:
+  spanish: allí
+  english: ["there"]
+  form: adverb
+
+hacia_105:
+  spanish: hacia
+  english: ["toward", "towards"]
+  form: preposition
+
+lado_106:
+  spanish: lado
+  english: ["side"]
+  form: noun
+
+cuenta_107:
+  spanish: cuenta
+  english: ["account", "bill"]
+  form: noun
+
+cuatro_108:
+  spanish: cuatro
+  english: ["four"]
+  form: adjective
+
+parte_109:
+  spanish: parte
+  english: ["part"]
+  form: noun
+
+lugar_110:
+  spanish: lugar
+  english: ["place"]
+  form: noun
+
+primero_111:
+  spanish: ["primero", "primera"]
+  english: ["first"]
+  form: adjective
+
+menos_112:
+  spanish: menos
+  english: ["less", "minus", "except"]
+  form: adverb
+
+embargo_113:
+  spanish: embargo
+  english: ["embargo", "however"]
+  form: noun
+
+mientras_114:
+  spanish: mientras
+  english: ["while", "meanwhile"]
+  form: conjunction
+
+problema_115:
+  spanish: problema
+  english: ["problem"]
+  form: noun
+
+bajo_116:
+  spanish: ["bajo", "baja"]
+  english: ["low", "under"]
+  form: adjective
+
+manera_117:
+  spanish: manera
+  english: ["way", "manner"]
+  form: noun
+
+cada_118:
+  spanish: cada
+  english: ["each", "every"]
+  form: adjective
+
+cinco_119:
+  spanish: cinco
+  english: ["five"]
+  form: adjective
+
+señorita_120:
+  spanish: señorita
+  english: ["miss", "young lady"]
+  form: noun
+
+ninguno_121:
+  spanish: ["ninguno", "ninguna"]
+  english: ["none", "no one"]
+  form: pronoun
+
+cuál_122:
+  spanish: cuál
+  english: ["which", "what"]
+  form: pronoun
+
+mañana_123:
+  spanish: mañana
+  english: ["morning", "tomorrow"]
+  form: noun
+
+único_124:
+  spanish: ["único", "única"]
+  english: ["only", "unique"]
+  form: adjective
+
+punto_125:
+  spanish: punto
+  english: ["point", "dot"]
+  form: noun
+
+tanto_126:
+  spanish: ["tanto", "tanta"]
+  english: ["so much", "as much"]
+  form: adjective
+
+importante_127:
+  spanish: importante
+  english: ["important"]
+  form: adjective
+
+cuánto_128:
+  spanish: ["cuánto", "cuánta"]
+  english: ["how much", "how many"]
+  form: pronoun
+
+todavía_129:
+  spanish: todavía
+  english: ["still", "yet"]
+  form: adverb
+
+hora_130:
+  spanish: hora
+  english: ["hour", "time"]
+  form: noun
+
+chico_131:
+  spanish: ["chico", "chica"]
+  english: ["boy", "girl", "kid"]
+  form: noun
+
+caso_132:
+  spanish: caso
+  english: ["case"]
+  form: noun
+
+aunque_133:
+  spanish: aunque
+  english: ["although", "even though"]
+  form: conjunction
+
+forma_134:
+  spanish: forma
+  english: ["form", "way", "shape"]
+  form: noun
+
+lejos_135:
+  spanish: lejos
+  english: ["far", "far away"]
+  form: adverb
+
+cabeza_136:
+  spanish: cabeza
+  english: ["head"]
+  form: noun
+
+mano_137:
+  spanish: mano
+  english: ["hand"]
+  form: noun
+
+gobierno_138:
+  spanish: gobierno
+  english: ["government"]
+  form: noun
+
+niño_139:
+  spanish: ["niño", "niña"]
+  english: ["child", "boy", "girl"]
+  form: noun
+
+país_140:
+  spanish: país
+  english: ["country"]
+  form: noun
+
+largo_141:
+  spanish: ["largo", "larga"]
+  english: ["long"]
+  form: adjective
+
+guerra_142:
+  spanish: guerra
+  english: ["war"]
+  form: noun
+
+dentro_143:
+  spanish: dentro
+  english: ["inside", "within"]
+  form: adverb
+
+casi_144:
+  spanish: casi
+  english: ["almost", "nearly"]
+  form: adverb
+
+ejemplo_145:
+  spanish: ejemplo
+  english: ["example"]
+  form: noun
+
+fuerza_146:
+  spanish: fuerza
+  english: ["force", "strength"]
+  form: noun
+
+ojo_147:
+  spanish: ojo
+  english: ["eye"]
+  form: noun
+
+sólo_148:
+  spanish: sólo
+  english: ["only", "just"]
+  form: adverb
+
+embargo_149:
+  spanish: embargo
+  english: ["seizure", "embargo"]
+  form: noun
+
+joven_150:
+  spanish: joven
+  english: ["young", "young person"]
+  form: adjective
+
+agua_151:
+  spanish: agua
+  english: ["water"]
+  form: noun
+
+demasiado_152:
+  spanish: ["demasiado", "demasiada"]
+  english: ["too much", "too many"]
+  form: adjective
+
+semana_153:
+  spanish: semana
+  english: ["week"]
+  form: noun
+
+pueblo_154:
+  spanish: pueblo
+  english: ["town", "village", "people"]
+  form: noun
+
+entre_155:
+  spanish: entre
+  english: ["between", "among"]
+  form: preposition
+
+seguro_156:
+  spanish: ["seguro", "segura"]
+  english: ["sure", "safe", "secure"]
+  form: adjective
+
+cerca_157:
+  spanish: cerca
+  english: ["near", "close"]
+  form: adverb
+
+segundo_158:
+  spanish: ["segundo", "segunda"]
+  english: ["second"]
+  form: adjective
+
+cuerpo_159:
+  spanish: cuerpo
+  english: ["body"]
+  form: noun
+
+rey_160:
+  spanish: rey
+  english: ["king"]
+  form: noun
+
+puerta_161:
+  spanish: puerta
+  english: ["door"]
+  form: noun
+
+medio_162:
+  spanish: ["medio", "media"]
+  english: ["half", "middle", "medium"]
+  form: adjective
+
+razón_163:
+  spanish: razón
+  english: ["reason"]
+  form: noun
+
+ciudad_164:
+  spanish: ciudad
+  english: ["city"]
+  form: noun
+
+alto_165:
+  spanish: ["alto", "alta"]
+  english: ["tall", "high"]
+  form: adjective
+
+seis_166:
+  spanish: seis
+  english: ["six"]
+  form: adjective
+
+hermano_167:
+  spanish: ["hermano", "hermana"]
+  english: ["brother", "sister", "sibling"]
+  form: noun
+
+adelante_168:
+  spanish: adelante
+  english: ["forward", "ahead"]
+  form: adverb
+
+ley_169:
+  spanish: ley
+  english: ["law"]
+  form: noun
+
+desde_170:
+  spanish: desde
+  english: ["from", "since"]
+  form: preposition
+
+pequeño_171:
+  spanish: ["pequeño", "pequeña"]
+  english: ["small", "little"]
+  form: adjective
+
+historia_172:
+  spanish: historia
+  english: ["history", "story"]
+  form: noun
+
+muerte_173:
+  spanish: muerte
+  english: ["death"]
+  form: noun
+
+palabra_174:
+  spanish: palabra
+  english: ["word"]
+  form: noun
+
+derecho_175:
+  spanish: derecho
+  english: ["right", "law"]
+  form: noun
+
+mayor_176:
+  spanish: mayor
+  english: ["older", "bigger", "main"]
+  form: adjective
+
+veces_177:
+  spanish: veces
+  english: ["times"]
+  form: noun
+
+propio_178:
+  spanish: ["propio", "propia"]
+  english: ["own"]
+  form: adjective
+
+posible_179:
+  spanish: posible
+  english: ["possible"]
+  form: adjective
+
+fuera_180:
+  spanish: fuera
+  english: ["outside", "out"]
+  form: adverb
+
+grupo_181:
+  spanish: grupo
+  english: ["group"]
+  form: noun
+
+orden_182:
+  spanish: orden
+  english: ["order"]
+  form: noun
+
+tierra_183:
+  spanish: tierra
+  english: ["earth", "land", "ground"]
+  form: noun
+
+estado_184:
+  spanish: estado
+  english: ["state", "status"]
+  form: noun
+
+necesario_185:
+  spanish: ["necesario", "necesaria"]
+  english: ["necessary"]
+  form: adjective
+
+espacio_186:
+  spanish: espacio
+  english: ["space"]
+  form: noun
+
+general_187:
+  spanish: general
+  english: ["general"]
+  form: adjective
+
+calle_188:
+  spanish: calle
+  english: ["street"]
+  form: noun
+
+mes_189:
+  spanish: mes
+  english: ["month"]
+  form: noun
+
+libro_190:
+  spanish: libro
+  english: ["book"]
+  form: noun
+
+siete_191:
+  spanish: siete
+  english: ["seven"]
+  form: adjective
+
+tarde_192:
+  spanish: tarde
+  english: ["afternoon", "late"]
+  form: noun
+
+posición_193:
+  spanish: posición
+  english: ["position"]
+  form: noun
+
+último_194:
+  spanish: ["último", "última"]
+  english: ["last", "latest"]
+  form: adjective
+
+pasado_195:
+  spanish: ["pasado", "pasada"]
+  english: ["past", "last"]
+  form: adjective
+
+real_196:
+  spanish: real
+  english: ["real", "royal"]
+  form: adjective
+
+ocho_197:
+  spanish: ocho
+  english: ["eight"]
+  form: adjective
+
+especial_198:
+  spanish: especial
+  english: ["special"]
+  form: adjective
+
+cara_199:
+  spanish: cara
+  english: ["face"]
+  form: noun
+
+idea_200:
+  spanish: idea
+  english: ["idea"]
+  form: noun
+
+falta_201:
+  spanish: falta
+  english: ["lack", "fault", "mistake"]
+  form: noun
+
+pie_202:
+  spanish: pie
+  english: ["foot"]
+  form: noun
+
+nueve_203:
+  spanish: nueve
+  english: ["nine"]
+  form: adjective
+
+coche_204:
+  spanish: coche
+  english: ["car"]
+  form: noun
+
+negro_205:
+  spanish: ["negro", "negra"]
+  english: ["black"]
+  form: adjective
+
+vista_206:
+  spanish: vista
+  english: ["view", "sight"]
+  form: noun
+
+frente_207:
+  spanish: frente
+  english: ["front", "forehead"]
+  form: noun
+
+público_208:
+  spanish: ["público", "pública"]
+  english: ["public"]
+  form: adjective
+
+social_209:
+  spanish: social
+  english: ["social"]
+  form: adjective
+
+siguiente_210:
+  spanish: siguiente
+  english: ["following", "next"]
+  form: adjective
+
+diez_211:
+  spanish: diez
+  english: ["ten"]
+  form: adjective
+
+libre_212:
+  spanish: libre
+  english: ["free"]
+  form: adjective
+
+cuestión_213:
+  spanish: cuestión
+  english: ["question", "issue"]
+  form: noun
+
+familia_214:
+  spanish: familia
+  english: ["family"]
+  form: noun
+
+presente_215:
+  spanish: presente
+  english: ["present"]
+  form: adjective
+
+blanco_216:
+  spanish: ["blanco", "blanca"]
+  english: ["white"]
+  form: adjective
+
+acción_217:
+  spanish: acción
+  english: ["action"]
+  form: noun
+
+distinto_218:
+  spanish: ["distinto", "distinta"]
+  english: ["different"]
+  form: adjective
+
+voz_219:
+  spanish: voz
+  english: ["voice"]
+  form: noun
+
+viejo_220:
+  spanish: ["viejo", "vieja"]
+  english: ["old"]
+  form: adjective
+
+sentido_221:
+  spanish: sentido
+  english: ["sense", "meaning", "direction"]
+  form: noun
+
+papel_222:
+  spanish: papel
+  english: ["paper", "role"]
+  form: noun
+
+político_223:
+  spanish: ["político", "política"]
+  english: ["political"]
+  form: adjective
+
+interés_224:
+  spanish: interés
+  english: ["interest"]
+  form: noun
+
+final_225:
+  spanish: final
+  english: ["final", "end"]
+  form: adjective
+
+principal_226:
+  spanish: principal
+  english: ["main", "principal"]
+  form: adjective
+
+sangre_227:
+  spanish: sangre
+  english: ["blood"]
+  form: noun
+
+atención_228:
+  spanish: atención
+  english: ["attention"]
+  form: noun
+
+junto_229:
+  spanish: ["junto", "junta"]
+  english: ["together"]
+  form: adjective
+
+relación_230:
+  spanish: relación
+  english: ["relationship", "relation"]
+  form: noun
+
+natural_231:
+  spanish: natural
+  english: ["natural"]
+  form: adjective
+
+centro_232:
+  spanish: centro
+  english: ["center"]
+  form: noun
+
+humano_233:
+  spanish: ["humano", "humana"]
+  english: ["human"]
+  form: adjective
+
+militar_234:
+  spanish: militar
+  english: ["military"]
+  form: adjective
+
+situación_235:
+  spanish: situación
+  english: ["situation"]
+  form: noun
+
+diferente_236:
+  spanish: diferente
+  english: ["different"]
+  form: adjective
+
+doctor_237:
+  spanish: ["doctor", "doctora"]
+  english: ["doctor"]
+  form: noun
+
+minuto_238:
+  spanish: minuto
+  english: ["minute"]
+  form: noun
+
+además_239:
+  spanish: además
+  english: ["besides", "in addition"]
+  form: adverb
+
+mesa_240:
+  spanish: mesa
+  english: ["table"]
+  form: noun
+
+tercero_241:
+  spanish: ["tercero", "tercera"]
+  english: ["third"]
+  form: adjective
+
+igual_242:
+  spanish: igual
+  english: ["equal", "same"]
+  form: adjective
+
+cosa_243:
+  spanish: cosa
+  english: ["thing"]
+  form: noun
+
+camino_244:
+  spanish: camino
+  english: ["road", "path", "way"]
+  form: noun
+
+mayor_245:
+  spanish: mayor
+  english: ["mayor", "greater"]
+  form: noun
+
+respecto_246:
+  spanish: respecto
+  english: ["respect", "regard"]
+  form: noun
+
+efecto_247:
+  spanish: efecto
+  english: ["effect"]
+  form: noun
+
+profesor_248:
+  spanish: ["profesor", "profesora"]
+  english: ["teacher", "professor"]
+  form: noun
+
+absolutamente_249:
+  spanish: absolutamente
+  english: ["absolutely"]
+  form: adverb
+
+izquierda_250:
+  spanish: izquierda
+  english: ["left"]
+  form: noun
+
+económico_251:
+  spanish: ["económico", "económica"]
+  english: ["economic"]
+  form: adjective
+
+derecha_252:
+  spanish: derecha
+  english: ["right"]
+  form: noun
+
+programa_253:
+  spanish: programa
+  english: ["program"]
+  form: noun
+
+sistema_254:
+  spanish: sistema
+  english: ["system"]
+  form: noun
+
+pregunta_255:
+  spanish: pregunta
+  english: ["question"]
+  form: noun
+
+corazón_256:
+  spanish: corazón
+  english: ["heart"]
+  form: noun
+
+empresa_257:
+  spanish: empresa
+  english: ["company", "business"]
+  form: noun
+
+sociedad_258:
+  spanish: sociedad
+  english: ["society"]
+  form: noun
+
+proceso_259:
+  spanish: proceso
+  english: ["process"]
+  form: noun
+
+personal_260:
+  spanish: personal
+  english: ["personal"]
+  form: adjective
+
+cultura_261:
+  spanish: cultura
+  english: ["culture"]
+  form: noun
+
+justo_262:
+  spanish: ["justo", "justa"]
+  english: ["just", "fair"]
+  form: adjective
+
+fin_263:
+  spanish: fin
+  english: ["end", "purpose"]
+  form: noun
+
+modo_264:
+  spanish: modo
+  english: ["way", "mode", "manner"]
+  form: noun
+
+medida_265:
+  spanish: medida
+  english: ["measure", "extent"]
+  form: noun
+
+desarrollo_266:
+  spanish: desarrollo
+  english: ["development"]
+  form: noun
+
+poder_267:
+  spanish: poder
+  english: ["power"]
+  form: noun
+
+proyecto_268:
+  spanish: proyecto
+  english: ["project"]
+  form: noun
+
+servicio_269:
+  spanish: servicio
+  english: ["service"]
+  form: noun
+
+peor_270:
+  spanish: peor
+  english: ["worse", "worst"]
+  form: adjective
+
+ganas_271:
+  spanish: ganas
+  english: ["desire", "urge"]
+  form: noun
+
+edad_272:
+  spanish: edad
+  english: ["age"]
+  form: noun
+
+control_273:
+  spanish: control
+  english: ["control"]
+  form: noun
+
+información_274:
+  spanish: información
+  english: ["information"]
+  form: noun
+
+futuro_275:
+  spanish: futuro
+  english: ["future"]
+  form: noun
+
+actividad_276:
+  spanish: actividad
+  english: ["activity"]
+  form: noun
+
+nivel_277:
+  spanish: nivel
+  english: ["level"]
+  form: noun
+
+línea_278:
+  spanish: línea
+  english: ["line"]
+  form: noun
+
+música_279:
+  spanish: música
+  english: ["music"]
+  form: noun
+
+teléfono_280:
+  spanish: teléfono
+  english: ["telephone", "phone"]
+  form: noun
+
+campo_281:
+  spanish: campo
+  english: ["field", "countryside"]
+  form: noun
+
+boca_282:
+  spanish: boca
+  english: ["mouth"]
+  form: noun
+
+sol_283:
+  spanish: sol
+  english: ["sun"]
+  form: noun
+
+arriba_284:
+  spanish: arriba
+  english: ["up", "above"]
+  form: adverb
+
+extraño_285:
+  spanish: ["extraño", "extraña"]
+  english: ["strange", "foreign"]
+  form: adjective
+
+peligro_286:
+  spanish: peligro
+  english: ["danger"]
+  form: noun
+
+banco_287:
+  spanish: banco
+  english: ["bank", "bench"]
+  form: noun
+
+estudio_288:
+  spanish: estudio
+  english: ["study"]
+  form: noun
+
+fecha_289:
+  spanish: fecha
+  english: ["date"]
+  form: noun
+
+brazo_290:
+  spanish: brazo
+  english: ["arm"]
+  form: noun
+
+cambio_291:
+  spanish: cambio
+  english: ["change", "exchange"]
+  form: noun
+
+base_292:
+  spanish: base
+  english: ["base", "basis"]
+  form: noun
+
+causa_293:
+  spanish: causa
+  english: ["cause"]
+  form: noun
+
+esposa_294:
+  spanish: esposa
+  english: ["wife"]
+  form: noun
+
+pecho_295:
+  spanish: pecho
+  english: ["chest", "breast"]
+  form: noun
+
+dirección_296:
+  spanish: dirección
+  english: ["direction", "address"]
+  form: noun
+
+veinte_297:
+  spanish: veinte
+  english: ["twenty"]
+  form: adjective
+
+universidad_298:
+  spanish: universidad
+  english: ["university"]
+  form: noun
+
+policía_299:
+  spanish: policía
+  english: ["police"]
+  form: noun
+
+clase_300:
+  spanish: clase
+  english: ["class"]
+  form: noun
+
+esposo_301:
+  spanish: esposo
+  english: ["husband"]
+  form: noun
+
+marido_302:
+  spanish: marido
+  english: ["husband"]
+  form: noun
+
+imagen_303:
+  spanish: imagen
+  english: ["image"]
+  form: noun
+
+sector_304:
+  spanish: sector
+  english: ["sector"]
+  form: noun
+
+película_305:
+  spanish: película
+  english: ["film", "movie"]
+  form: noun
+
+mercado_306:
+  spanish: mercado
+  english: ["market"]
+  form: noun
+
+especie_307:
+  spanish: especie
+  english: ["species", "kind"]
+  form: noun
+
+asunto_308:
+  spanish: asunto
+  english: ["matter", "issue"]
+  form: noun
+
+partido_309:
+  spanish: partido
+  english: ["party", "match"]
+  form: noun
+
+triste_310:
+  spanish: triste
+  english: ["sad"]
+  form: adjective
+
+uso_311:
+  spanish: uso
+  english: ["use"]
+  form: noun
+
+rojo_312:
+  spanish: ["rojo", "roja"]
+  english: ["red"]
+  form: adjective
+
+hospital_313:
+  spanish: hospital
+  english: ["hospital"]
+  form: noun
+
+opinión_314:
+  spanish: opinión
+  english: ["opinion"]
+  form: noun
+
+periodo_315:
+  spanish: periodo
+  english: ["period"]
+  form: noun
+
+modelo_316:
+  spanish: modelo
+  english: ["model"]
+  form: noun
+
+condición_317:
+  spanish: condición
+  english: ["condition"]
+  form: noun
+
+producto_318:
+  spanish: producto
+  english: ["product"]
+  form: noun
+
+objeto_319:
+  spanish: objeto
+  english: ["object"]
+  form: noun
+
+dato_320:
+  spanish: dato
+  english: ["data", "fact"]
+  form: noun
+
+resultado_321:
+  spanish: resultado
+  english: ["result"]
+  form: noun
+
+cielo_322:
+  spanish: cielo
+  english: ["sky", "heaven"]
+  form: noun
+
+hotel_323:
+  spanish: hotel
+  english: ["hotel"]
+  form: noun
+
+comida_324:
+  spanish: comida
+  english: ["food", "meal"]
+  form: noun
+
+consejo_325:
+  spanish: consejo
+  english: ["advice", "council"]
+  form: noun
+
+verde_326:
+  spanish: verde
+  english: ["green"]
+  form: adjective
+
+pobre_327:
+  spanish: pobre
+  english: ["poor"]
+  form: adjective
+
+valor_328:
+  spanish: valor
+  english: ["value", "courage"]
+  form: noun
+
+paso_329:
+  spanish: paso
+  english: ["step"]
+  form: noun
+
+total_330:
+  spanish: total
+  english: ["total"]
+  form: adjective
+
+cuarto_331:
+  spanish: ["cuarto", "cuarta"]
+  english: ["fourth", "room"]
+  form: adjective
+
+carta_332:
+  spanish: carta
+  english: ["letter", "card"]
+  form: noun
+
+objetivo_333:
+  spanish: objetivo
+  english: ["objective", "goal"]
+  form: noun
+
+atrás_334:
+  spanish: atrás
+  english: ["back", "behind"]
+  form: adverb
+
+profesor_335:
+  spanish: ["profesor", "profesora"]
+  english: ["teacher", "professor"]
+  form: noun
+
+error_336:
+  spanish: error
+  english: ["error", "mistake"]
+  form: noun
+
+serie_337:
+  spanish: serie
+  english: ["series"]
+  form: noun
+
+prueba_338:
+  spanish: prueba
+  english: ["proof", "test"]
+  form: noun
+
+largo_339:
+  spanish: ["largo", "larga"]
+  english: ["long"]
+  form: adjective
+
+conciencia_340:
+  spanish: conciencia
+  english: ["conscience", "consciousness"]
+  form: noun
+
+local_341:
+  spanish: local
+  english: ["local"]
+  form: adjective
+
+precio_342:
+  spanish: precio
+  english: ["price"]
+  form: noun
+
+iglesia_343:
+  spanish: iglesia
+  english: ["church"]
+  form: noun
+
+miembro_344:
+  spanish: miembro
+  english: ["member"]
+  form: noun
+
+cama_345:
+  spanish: cama
+  english: ["bed"]
+  form: noun
+
+norma_346:
+  spanish: norma
+  english: ["norm", "rule"]
+  form: noun
+
+luego_347:
+  spanish: luego
+  english: ["then", "later"]
+  form: adverb
+
+zona_348:
+  spanish: zona
+  english: ["zone", "area"]
+  form: noun
+
+capital_349:
+  spanish: capital
+  english: ["capital"]
+  form: noun
+
+sueño_350:
+  spanish: sueño
+  english: ["dream", "sleep"]
+  form: noun
+
+papel_351:
+  spanish: papel
+  english: ["paper", "role"]
+  form: noun
+
+rico_352:
+  spanish: ["rico", "rica"]
+  english: ["rich", "delicious"]
+  form: adjective
+
+autor_353:
+  spanish: ["autor", "autora"]
+  english: ["author"]
+  form: noun
+
+juego_354:
+  spanish: juego
+  english: ["game", "play"]
+  form: noun
+
+reunión_355:
+  spanish: reunión
+  english: ["meeting", "reunion"]
+  form: noun
+
+respuesta_356:
+  spanish: respuesta
+  english: ["answer", "response"]
+  form: noun
+
+teoría_357:
+  spanish: teoría
+  english: ["theory"]
+  form: noun
+
+voluntad_358:
+  spanish: voluntad
+  english: ["will", "willpower"]
+  form: noun
+
+decisión_359:
+  spanish: decisión
+  english: ["decision"]
+  form: noun
+
+interior_360:
+  spanish: interior
+  english: ["interior", "inside"]
+  form: adjective
+
+fondo_361:
+  spanish: fondo
+  english: ["bottom", "background", "fund"]
+  form: noun
+
+estructura_362:
+  spanish: estructura
+  english: ["structure"]
+  form: noun
+
+ejemplo_363:
+  spanish: ejemplo
+  english: ["example"]
+  form: noun
+
+espíritu_364:
+  spanish: espíritu
+  english: ["spirit"]
+  form: noun
+
+educación_365:
+  spanish: educación
+  english: ["education"]
+  form: noun
+
+memoria_366:
+  spanish: memoria
+  english: ["memory"]
+  form: noun
+
+artículo_367:
+  spanish: artículo
+  english: ["article"]
+  form: noun
+
+secreto_368:
+  spanish: secreto
+  english: ["secret"]
+  form: noun
+
+ambiente_369:
+  spanish: ambiente
+  english: ["environment", "atmosphere"]
+  form: noun
+
+largo_370:
+  spanish: ["largo", "larga"]
+  english: ["long"]
+  form: adjective
+
+movimiento_371:
+  spanish: movimiento
+  english: ["movement"]
+  form: noun
+
+técnica_372:
+  spanish: técnica
+  english: ["technique"]
+  form: noun
+
+fenómeno_373:
+  spanish: fenómeno
+  english: ["phenomenon"]
+  form: noun
+
+tradicional_374:
+  spanish: tradicional
+  english: ["traditional"]
+  form: adjective
+
+carácter_375:
+  spanish: carácter
+  english: ["character"]
+  form: noun
+
+recurso_376:
+  spanish: recurso
+  english: ["resource"]
+  form: noun
+
+animal_377:
+  spanish: animal
+  english: ["animal"]
+  form: noun
+
+figura_378:
+  spanish: figura
+  english: ["figure", "shape"]
+  form: noun
+
+cantidad_379:
+  spanish: cantidad
+  english: ["quantity", "amount"]
+  form: noun
+
+territorio_380:
+  spanish: territorio
+  english: ["territory"]
+  form: noun
+
+acto_381:
+  spanish: acto
+  english: ["act"]
+  form: noun
+
+expresión_382:
+  spanish: expresión
+  english: ["expression"]
+  form: noun
+
+internacional_383:
+  spanish: internacional
+  english: ["international"]
+  form: adjective
+
+profesional_384:
+  spanish: profesional
+  english: ["professional"]
+  form: adjective
+
+arte_385:
+  spanish: arte
+  english: ["art"]
+  form: noun
+
+concepto_386:
+  spanish: concepto
+  english: ["concept"]
+  form: noun
+
+experiencia_387:
+  spanish: experiencia
+  english: ["experience"]
+  form: noun
+
+nacional_388:
+  spanish: nacional
+  english: ["national"]
+  form: adjective
+
+texto_389:
+  spanish: texto
+  english: ["text"]
+  form: noun
+
+duda_390:
+  spanish: duda
+  english: ["doubt"]
+  form: noun
+
+siglo_391:
+  spanish: siglo
+  english: ["century"]
+  form: noun
+
+término_392:
+  spanish: término
+  english: ["term", "end"]
+  form: noun
+
+literatura_393:
+  spanish: literatura
+  english: ["literature"]
+  form: noun
+
+principio_394:
+  spanish: principio
+  english: ["principle", "beginning"]
+  form: noun
+
+análisis_395:
+  spanish: análisis
+  english: ["analysis"]
+  form: noun
+
+realidad_396:
+  spanish: realidad
+  english: ["reality"]
+  form: noun
+
+práctica_397:
+  spanish: práctica
+  english: ["practice"]
+  form: noun
+
+organización_398:
+  spanish: organización
+  english: ["organization"]
+  form: noun
+
+material_399:
+  spanish: material
+  english: ["material"]
+  form: noun
+
+región_400:
+  spanish: región
+  english: ["region"]
+  form: noun
+
+comunicación_401:
+  spanish: comunicación
+  english: ["communication"]
+  form: noun
+
+aspecto_402:
+  spanish: aspecto
+  english: ["aspect"]
+  form: noun
+
+elemento_403:
+  spanish: elemento
+  english: ["element"]
+  form: noun
+
+ciento_404:
+  spanish: ciento
+  english: ["hundred"]
+  form: adjective
+
+población_405:
+  spanish: población
+  english: ["population"]
+  form: noun
+
+conocimiento_406:
+  spanish: conocimiento
+  english: ["knowledge"]
+  form: noun
+
+producción_407:
+  spanish: producción
+  english: ["production"]
+  form: noun
+
+caballero_408:
+  spanish: caballero
+  english: ["gentleman", "knight"]
+  form: noun
+
+esfuerzo_409:
+  spanish: esfuerzo
+  english: ["effort"]
+  form: noun
+
+existencia_410:
+  spanish: existencia
+  english: ["existence"]
+  form: noun
+
+libertad_411:
+  spanish: libertad
+  english: ["freedom", "liberty"]
+  form: noun
+
+amor_412:
+  spanish: amor
+  english: ["love"]
+  form: noun
+
+pensamiento_413:
+  spanish: pensamiento
+  english: ["thought"]
+  form: noun
+
+señal_414:
+  spanish: señal
+  english: ["signal", "sign"]
+  form: noun
+
+pierna_415:
+  spanish: pierna
+  english: ["leg"]
+  form: noun
+
+dolor_416:
+  spanish: dolor
+  english: ["pain"]
+  form: noun
+
+ataque_417:
+  spanish: ataque
+  english: ["attack"]
+  form: noun
+
+tipo_418:
+  spanish: tipo
+  english: ["type", "kind"]
+  form: noun
+
+seguridad_419:
+  spanish: seguridad
+  english: ["security", "safety"]
+  form: noun
+
+función_420:
+  spanish: función
+  english: ["function"]
+  form: noun
+
+capacidad_421:
+  spanish: capacidad
+  english: ["capacity", "ability"]
+  form: noun
+
+criterio_422:
+  spanish: criterio
+  english: ["criterion"]
+  form: noun
+
+ventana_423:
+  spanish: ventana
+  english: ["window"]
+  form: noun
+
+dólar_424:
+  spanish: dólar
+  english: ["dollar"]
+  form: noun
+
+cuenta_425:
+  spanish: cuenta
+  english: ["account", "bill"]
+  form: noun
+
+investigación_426:
+  spanish: investigación
+  english: ["investigation", "research"]
+  form: noun
+
+instante_427:
+  spanish: instante
+  english: ["instant", "moment"]
+  form: noun
+
+azul_428:
+  spanish: azul
+  english: ["blue"]
+  form: adjective
+
+domingo_429:
+  spanish: domingo
+  english: ["Sunday"]
+  form: noun
+
+lunes_430:
+  spanish: lunes
+  english: ["Monday"]
+  form: noun
+
+martes_431:
+  spanish: martes
+  english: ["Tuesday"]
+  form: noun
+
+miércoles_432:
+  spanish: miércoles
+  english: ["Wednesday"]
+  form: noun
+
+jueves_433:
+  spanish: jueves
+  english: ["Thursday"]
+  form: noun
+
+viernes_434:
+  spanish: viernes
+  english: ["Friday"]
+  form: noun
+
+sábado_435:
+  spanish: sábado
+  english: ["Saturday"]
+  form: noun
+
+enero_436:
+  spanish: enero
+  english: ["January"]
+  form: noun
+
+febrero_437:
+  spanish: febrero
+  english: ["February"]
+  form: noun
+
+marzo_438:
+  spanish: marzo
+  english: ["March"]
+  form: noun
+
+abril_439:
+  spanish: abril
+  english: ["April"]
+  form: noun
+
+mayo_440:
+  spanish: mayo
+  english: ["May"]
+  form: noun
+
+junio_441:
+  spanish: junio
+  english: ["June"]
+  form: noun
+
+julio_442:
+  spanish: julio
+  english: ["July"]
+  form: noun
+
+agosto_443:
+  spanish: agosto
+  english: ["August"]
+  form: noun
+
+septiembre_444:
+  spanish: septiembre
+  english: ["September"]
+  form: noun
+
+octubre_445:
+  spanish: octubre
+  english: ["October"]
+  form: noun
+
+noviembre_446:
+  spanish: noviembre
+  english: ["November"]
+  form: noun
+
+diciembre_447:
+  spanish: diciembre
+  english: ["December"]
+  form: noun
+
+abajo_448:
+  spanish: abajo
+  english: ["down", "below"]
+  form: adverb
+
+encima_449:
+  spanish: encima
+  english: ["on top", "above"]
+  form: adverb
+
+detrás_450:
+  spanish: detrás
+  english: ["behind"]
+  form: adverb
+
+delante_451:
+  spanish: delante
+  english: ["in front", "ahead"]
+  form: adverb
+
+debajo_452:
+  spanish: debajo
+  english: ["underneath", "below"]
+  form: adverb
+
+fuerte_453:
+  spanish: fuerte
+  english: ["strong"]
+  form: adjective
+
+débil_454:
+  spanish: débil
+  english: ["weak"]
+  form: adjective
+
+rápido_455:
+  spanish: ["rápido", "rápida"]
+  english: ["fast", "quick"]
+  form: adjective
+
+lento_456:
+  spanish: ["lento", "lenta"]
+  english: ["slow"]
+  form: adjective
+
+fácil_457:
+  spanish: fácil
+  english: ["easy"]
+  form: adjective
+
+difícil_458:
+  spanish: difícil
+  english: ["difficult"]
+  form: adjective
+
+simple_459:
+  spanish: simple
+  english: ["simple"]
+  form: adjective
+
+complejo_460:
+  spanish: ["complejo", "compleja"]
+  english: ["complex"]
+  form: adjective
+
+caliente_461:
+  spanish: caliente
+  english: ["hot"]
+  form: adjective
+
+frío_462:
+  spanish: ["frío", "fría"]
+  english: ["cold"]
+  form: adjective
+
+limpio_463:
+  spanish: ["limpio", "limpia"]
+  english: ["clean"]
+  form: adjective
+
+sucio_464:
+  spanish: ["sucio", "sucia"]
+  english: ["dirty"]
+  form: adjective
+
+lleno_465:
+  spanish: ["lleno", "llena"]
+  english: ["full"]
+  form: adjective
+
+vacío_466:
+  spanish: ["vacío", "vacía"]
+  english: ["empty"]
+  form: adjective
+
+abierto_467:
+  spanish: ["abierto", "abierta"]
+  english: ["open"]
+  form: adjective
+
+cerrado_468:
+  spanish: ["cerrado", "cerrada"]
+  english: ["closed"]
+  form: adjective
+
+correcto_469:
+  spanish: ["correcto", "correcta"]
+  english: ["correct"]
+  form: adjective
+
+incorrecto_470:
+  spanish: ["incorrecto", "incorrecta"]
+  english: ["incorrect"]
+  form: adjective
+
+barato_471:
+  spanish: ["barato", "barata"]
+  english: ["cheap"]
+  form: adjective
+
+caro_472:
+  spanish: ["caro", "cara"]
+  english: ["expensive"]
+  form: adjective
+
+bonito_473:
+  spanish: ["bonito", "bonita"]
+  english: ["pretty", "beautiful"]
+  form: adjective
+
+feo_474:
+  spanish: ["feo", "fea"]
+  english: ["ugly"]
+  form: adjective
+
+gordo_475:
+  spanish: ["gordo", "gorda"]
+  english: ["fat"]
+  form: adjective
+
+delgado_476:
+  spanish: ["delgado", "delgada"]
+  english: ["thin", "slim"]
+  form: adjective
+
+corto_477:
+  spanish: ["corto", "corta"]
+  english: ["short"]
+  form: adjective
+
+ancho_478:
+  spanish: ["ancho", "ancha"]
+  english: ["wide"]
+  form: adjective
+
+estrecho_479:
+  spanish: ["estrecho", "estrecha"]
+  english: ["narrow"]
+  form: adjective
+
+profundo_480:
+  spanish: ["profundo", "profunda"]
+  english: ["deep"]
+  form: adjective
+
+oscuro_481:
+  spanish: ["oscuro", "oscura"]
+  english: ["dark"]
+  form: adjective
+
+claro_482:
+  spanish: ["claro", "clara"]
+  english: ["light", "clear"]
+  form: adjective
+
+dulce_483:
+  spanish: dulce
+  english: ["sweet"]
+  form: adjective
+
+amargo_484:
+  spanish: ["amargo", "amarga"]
+  english: ["bitter"]
+  form: adjective
+
+salado_485:
+  spanish: ["salado", "salada"]
+  english: ["salty"]
+  form: adjective
+
+oficina_486:
+  spanish: oficina
+  english: ["office"]
+  form: noun
+
+escuela_487:
+  spanish: escuela
+  english: ["school"]
+  form: noun
+
+tienda_488:
+  spanish: tienda
+  english: ["store", "shop"]
+  form: noun
+
+restaurante_489:
+  spanish: restaurante
+  english: ["restaurant"]
+  form: noun
+
+aeropuerto_490:
+  spanish: aeropuerto
+  english: ["airport"]
+  form: noun
+
+estación_491:
+  spanish: estación
+  english: ["station", "season"]
+  form: noun
+
+playa_492:
+  spanish: playa
+  english: ["beach"]
+  form: noun
+
+montaña_493:
+  spanish: montaña
+  english: ["mountain"]
+  form: noun
+
+río_494:
+  spanish: río
+  english: ["river"]
+  form: noun
+
+lago_495:
+  spanish: lago
+  english: ["lake"]
+  form: noun
+
+mar_496:
+  spanish: mar
+  english: ["sea"]
+  form: noun
+
+bosque_497:
+  spanish: bosque
+  english: ["forest"]
+  form: noun
+
+jardín_498:
+  spanish: jardín
+  english: ["garden"]
+  form: noun
+
+parque_499:
+  spanish: parque
+  english: ["park"]
+  form: noun
+
+plaza_500:
+  spanish: plaza
+  english: ["square", "plaza"]
+  form: noun
+
+puente_501:
+  spanish: puente
+  english: ["bridge"]
+  form: noun
+
+edificio_502:
+  spanish: edificio
+  english: ["building"]
+  form: noun
+
+piso_503:
+  spanish: piso
+  english: ["floor", "apartment"]
+  form: noun
+
+techo_504:
+  spanish: techo
+  english: ["roof", "ceiling"]
+  form: noun
+
+pared_505:
+  spanish: pared
+  english: ["wall"]
+  form: noun
+
+suelo_506:
+  spanish: suelo
+  english: ["floor", "ground"]
+  form: noun
+
+escalera_507:
+  spanish: escalera
+  english: ["stairs", "ladder"]
+  form: noun
+
+cocina_508:
+  spanish: cocina
+  english: ["kitchen"]
+  form: noun
+
+baño_509:
+  spanish: baño
+  english: ["bathroom"]
+  form: noun
+
+habitación_510:
+  spanish: habitación
+  english: ["room"]
+  form: noun
+
+salón_511:
+  spanish: salón
+  english: ["living room", "hall"]
+  form: noun
+
+comedor_512:
+  spanish: comedor
+  english: ["dining room"]
+  form: noun
+
+dormitorio_513:
+  spanish: dormitorio
+  english: ["bedroom"]
+  form: noun
+
+garaje_514:
+  spanish: garaje
+  english: ["garage"]
+  form: noun
+
+silla_515:
+  spanish: silla
+  english: ["chair"]
+  form: noun
+
+sofá_516:
+  spanish: sofá
+  english: ["sofa"]
+  form: noun
+
+lámpara_517:
+  spanish: lámpara
+  english: ["lamp"]
+  form: noun
+
+espejo_518:
+  spanish: espejo
+  english: ["mirror"]
+  form: noun
+
+cuadro_519:
+  spanish: cuadro
+  english: ["picture", "painting"]
+  form: noun
+
+alfombra_520:
+  spanish: alfombra
+  english: ["carpet", "rug"]
+  form: noun
+
+cortina_521:
+  spanish: cortina
+  english: ["curtain"]
+  form: noun
+
+llave_522:
+  spanish: llave
+  english: ["key"]
+  form: noun
+
+reloj_523:
+  spanish: reloj
+  english: ["clock", "watch"]
+  form: noun
+
+bolsa_524:
+  spanish: bolsa
+  english: ["bag"]
+  form: noun
+
+maleta_525:
+  spanish: maleta
+  english: ["suitcase"]
+  form: noun
+
+ropa_526:
+  spanish: ropa
+  english: ["clothes"]
+  form: noun
+
+camisa_527:
+  spanish: camisa
+  english: ["shirt"]
+  form: noun
+
+pantalón_528:
+  spanish: pantalón
+  english: ["pants", "trousers"]
+  form: noun
+
+falda_529:
+  spanish: falda
+  english: ["skirt"]
+  form: noun
+
+vestido_530:
+  spanish: vestido
+  english: ["dress"]
+  form: noun
+
+chaqueta_531:
+  spanish: chaqueta
+  english: ["jacket"]
+  form: noun
+
+abrigo_532:
+  spanish: abrigo
+  english: ["coat"]
+  form: noun
+
+zapato_533:
+  spanish: zapato
+  english: ["shoe"]
+  form: noun
+
+bota_534:
+  spanish: bota
+  english: ["boot"]
+  form: noun
+
+sombrero_535:
+  spanish: sombrero
+  english: ["hat"]
+  form: noun
+
+gorra_536:
+  spanish: gorra
+  english: ["cap"]
+  form: noun
+
+guante_537:
+  spanish: guante
+  english: ["glove"]
+  form: noun
+
+bufanda_538:
+  spanish: bufanda
+  english: ["scarf"]
+  form: noun
+
+calcetín_539:
+  spanish: calcetín
+  english: ["sock"]
+  form: noun
+
+cinturón_540:
+  spanish: cinturón
+  english: ["belt"]
+  form: noun
+
+bolsillo_541:
+  spanish: bolsillo
+  english: ["pocket"]
+  form: noun
+
+botón_542:
+  spanish: botón
+  english: ["button"]
+  form: noun
+
+tela_543:
+  spanish: tela
+  english: ["fabric", "cloth"]
+  form: noun
+
+color_544:
+  spanish: color
+  english: ["color"]
+  form: noun
+
+amarillo_545:
+  spanish: ["amarillo", "amarilla"]
+  english: ["yellow"]
+  form: adjective
+
+naranja_546:
+  spanish: naranja
+  english: ["orange"]
+  form: adjective
+
+morado_547:
+  spanish: ["morado", "morada"]
+  english: ["purple"]
+  form: adjective
+
+rosa_548:
+  spanish: rosa
+  english: ["pink"]
+  form: adjective
+
+gris_549:
+  spanish: gris
+  english: ["gray"]
+  form: adjective
+
+marrón_550:
+  spanish: marrón
+  english: ["brown"]
+  form: adjective
+
+cuerda_551:
+  spanish: cuerda
+  english: ["rope", "string"]
+  form: noun
+
+cadena_552:
+  spanish: cadena
+  english: ["chain"]
+  form: noun
+
+anillo_553:
+  spanish: anillo
+  english: ["ring"]
+  form: noun
+
+collar_554:
+  spanish: collar
+  english: ["necklace"]
+  form: noun
+
+pendiente_555:
+  spanish: pendiente
+  english: ["earring", "pending"]
+  form: noun
+
+pulsera_556:
+  spanish: pulsera
+  english: ["bracelet"]
+  form: noun
+
+gafas_557:
+  spanish: gafas
+  english: ["glasses"]
+  form: noun
+
+paraguas_558:
+  spanish: paraguas
+  english: ["umbrella"]
+  form: noun
+
+cartera_559:
+  spanish: cartera
+  english: ["wallet", "briefcase"]
+  form: noun
+
+moneda_560:
+  spanish: moneda
+  english: ["coin", "currency"]
+  form: noun
+
+billete_561:
+  spanish: billete
+  english: ["bill", "ticket"]
+  form: noun
+
+tarjeta_562:
+  spanish: tarjeta
+  english: ["card"]
+  form: noun
+
+cheque_563:
+  spanish: cheque
+  english: ["check"]
+  form: noun
+
+recibo_564:
+  spanish: recibo
+  english: ["receipt"]
+  form: noun
+
+factura_565:
+  spanish: factura
+  english: ["invoice", "bill"]
+  form: noun
+
+documento_566:
+  spanish: documento
+  english: ["document"]
+  form: noun
+
+pasaporte_567:
+  spanish: pasaporte
+  english: ["passport"]
+  form: noun
+
+permiso_568:
+  spanish: permiso
+  english: ["permission", "permit"]
+  form: noun
+
+licencia_569:
+  spanish: licencia
+  english: ["license"]
+  form: noun
+
+firma_570:
+  spanish: firma
+  english: ["signature", "firm"]
+  form: noun
+
+sello_571:
+  spanish: sello
+  english: ["stamp", "seal"]
+  form: noun
+
+sobre_572:
+  spanish: sobre
+  english: ["envelope"]
+  form: noun
+
+paquete_573:
+  spanish: paquete
+  english: ["package"]
+  form: noun
+
+caja_574:
+  spanish: caja
+  english: ["box"]
+  form: noun
+
+bolso_575:
+  spanish: bolso
+  english: ["purse", "handbag"]
+  form: noun
+
+mochila_576:
+  spanish: mochila
+  english: ["backpack"]
+  form: noun
+
+equipaje_577:
+  spanish: equipaje
+  english: ["luggage"]
+  form: noun
+
+regalo_578:
+  spanish: regalo
+  english: ["gift"]
+  form: noun
+
+juguete_579:
+  spanish: juguete
+  english: ["toy"]
+  form: noun
+
+pelota_580:
+  spanish: pelota
+  english: ["ball"]
+  form: noun
+
+muñeca_581:
+  spanish: muñeca
+  english: ["doll", "wrist"]
+  form: noun
+
+herramienta_582:
+  spanish: herramienta
+  english: ["tool"]
+  form: noun
+
+martillo_583:
+  spanish: martillo
+  english: ["hammer"]
+  form: noun
+
+clavo_584:
+  spanish: clavo
+  english: ["nail"]
+  form: noun
+
+tornillo_585:
+  spanish: tornillo
+  english: ["screw"]
+  form: noun
+
+tijeras_586:
+  spanish: tijeras
+  english: ["scissors"]
+  form: noun
+
+cuchillo_587:
+  spanish: cuchillo
+  english: ["knife"]
+  form: noun
+
+tenedor_588:
+  spanish: tenedor
+  english: ["fork"]
+  form: noun
+
+cuchara_589:
+  spanish: cuchara
+  english: ["spoon"]
+  form: noun
+
+plato_590:
+  spanish: plato
+  english: ["plate", "dish"]
+  form: noun
+
+taza_591:
+  spanish: taza
+  english: ["cup", "mug"]
+  form: noun
+
+vaso_592:
+  spanish: vaso
+  english: ["glass"]
+  form: noun
+
+botella_593:
+  spanish: botella
+  english: ["bottle"]
+  form: noun
+
+copa_594:
+  spanish: copa
+  english: ["glass", "cup"]
+  form: noun
+
+olla_595:
+  spanish: olla
+  english: ["pot"]
+  form: noun
+
+sartén_596:
+  spanish: sartén
+  english: ["frying pan"]
+  form: noun
+
+horno_597:
+  spanish: horno
+  english: ["oven"]
+  form: noun
+
+nevera_598:
+  spanish: nevera
+  english: ["refrigerator"]
+  form: noun
+
+lavadora_599:
+  spanish: lavadora
+  english: ["washing machine"]
+  form: noun
+
+televisor_600:
+  spanish: televisor
+  english: ["television"]
+  form: noun
+
+radio_601:
+  spanish: radio
+  english: ["radio"]
+  form: noun
+
+ordenador_602:
+  spanish: ordenador
+  english: ["computer"]
+  form: noun
+
+computadora_603:
+  spanish: computadora
+  english: ["computer"]
+  form: noun
+
+máquina_604:
+  spanish: máquina
+  english: ["machine"]
+  form: noun
+
+cámara_605:
+  spanish: cámara
+  english: ["camera"]
+  form: noun
+
+batería_606:
+  spanish: batería
+  english: ["battery"]
+  form: noun
+
+cable_607:
+  spanish: cable
+  english: ["cable"]
+  form: noun
+
+enchufe_608:
+  spanish: enchufe
+  english: ["plug", "socket"]
+  form: noun
+
+interruptor_609:
+  spanish: interruptor
+  english: ["switch"]
+  form: noun
+
+luz_610:
+  spanish: luz
+  english: ["light"]
+  form: noun
+
+electricidad_611:
+  spanish: electricidad
+  english: ["electricity"]
+  form: noun
+
+energía_612:
+  spanish: energía
+  english: ["energy"]
+  form: noun
+
+gasolina_613:
+  spanish: gasolina
+  english: ["gasoline"]
+  form: noun
+
+petróleo_614:
+  spanish: petróleo
+  english: ["oil", "petroleum"]
+  form: noun
+
+gas_615:
+  spanish: gas
+  english: ["gas"]
+  form: noun
+
+hierro_616:
+  spanish: hierro
+  english: ["iron"]
+  form: noun
+
+acero_617:
+  spanish: acero
+  english: ["steel"]
+  form: noun
+
+oro_618:
+  spanish: oro
+  english: ["gold"]
+  form: noun
+
+plata_619:
+  spanish: plata
+  english: ["silver"]
+  form: noun
+
+cobre_620:
+  spanish: cobre
+  english: ["copper"]
+  form: noun
+
+piedra_621:
+  spanish: piedra
+  english: ["stone"]
+  form: noun
+
+madera_622:
+  spanish: madera
+  english: ["wood"]
+  form: noun
+
+cristal_623:
+  spanish: cristal
+  english: ["glass", "crystal"]
+  form: noun
+
+plástico_624:
+  spanish: plástico
+  english: ["plastic"]
+  form: noun
+
+cuero_625:
+  spanish: cuero
+  english: ["leather"]
+  form: noun
+
+algodón_626:
+  spanish: algodón
+  english: ["cotton"]
+  form: noun
+
+lana_627:
+  spanish: lana
+  english: ["wool"]
+  form: noun
+
+seda_628:
+  spanish: seda
+  english: ["silk"]
+  form: noun
+
+pan_629:
+  spanish: pan
+  english: ["bread"]
+  form: noun
+
+leche_630:
+  spanish: leche
+  english: ["milk"]
+  form: noun
+
+queso_631:
+  spanish: queso
+  english: ["cheese"]
+  form: noun
+
+huevo_632:
+  spanish: huevo
+  english: ["egg"]
+  form: noun
+
+carne_633:
+  spanish: carne
+  english: ["meat"]
+  form: noun
+
+pollo_634:
+  spanish: pollo
+  english: ["chicken"]
+  form: noun
+
+pescado_635:
+  spanish: pescado
+  english: ["fish"]
+  form: noun
+
+fruta_636:
+  spanish: fruta
+  english: ["fruit"]
+  form: noun
+
+verdura_637:
+  spanish: verdura
+  english: ["vegetable"]
+  form: noun
+
+manzana_638:
+  spanish: manzana
+  english: ["apple"]
+  form: noun
+
+naranja_639:
+  spanish: naranja
+  english: ["orange"]
+  form: noun
+
+plátano_640:
+  spanish: plátano
+  english: ["banana"]
+  form: noun
+
+uva_641:
+  spanish: uva
+  english: ["grape"]
+  form: noun
+
+limón_642:
+  spanish: limón
+  english: ["lemon"]
+  form: noun
+
+fresa_643:
+  spanish: fresa
+  english: ["strawberry"]
+  form: noun
+
+tomate_644:
+  spanish: tomate
+  english: ["tomato"]
+  form: noun
+
+lechuga_645:
+  spanish: lechuga
+  english: ["lettuce"]
+  form: noun
+
+zanahoria_646:
+  spanish: zanahoria
+  english: ["carrot"]
+  form: noun
+
+patata_647:
+  spanish: patata
+  english: ["potato"]
+  form: noun
+
+cebolla_648:
+  spanish: cebolla
+  english: ["onion"]
+  form: noun
+
+ajo_649:
+  spanish: ajo
+  english: ["garlic"]
+  form: noun
+
+arroz_650:
+  spanish: arroz
+  english: ["rice"]
+  form: noun
+
+pasta_651:
+  spanish: pasta
+  english: ["pasta"]
+  form: noun
+
+sal_652:
+  spanish: sal
+  english: ["salt"]
+  form: noun
+
+azúcar_653:
+  spanish: azúcar
+  english: ["sugar"]
+  form: noun
+
+pimienta_654:
+  spanish: pimienta
+  english: ["pepper"]
+  form: noun
+
+aceite_655:
+  spanish: aceite
+  english: ["oil"]
+  form: noun
+
+vinagre_656:
+  spanish: vinagre
+  english: ["vinegar"]
+  form: noun
+
+sopa_657:
+  spanish: sopa
+  english: ["soup"]
+  form: noun
+
+ensalada_658:
+  spanish: ensalada
+  english: ["salad"]
+  form: noun
+
+postre_659:
+  spanish: postre
+  english: ["dessert"]
+  form: noun
+
+helado_660:
+  spanish: helado
+  english: ["ice cream"]
+  form: noun
+
+pastel_661:
+  spanish: pastel
+  english: ["cake"]
+  form: noun
+
+galleta_662:
+  spanish: galleta
+  english: ["cookie", "cracker"]
+  form: noun
+
+chocolate_663:
+  spanish: chocolate
+  english: ["chocolate"]
+  form: noun
+
+caramelo_664:
+  spanish: caramelo
+  english: ["candy"]
+  form: noun
+
+café_665:
+  spanish: café
+  english: ["coffee"]
+  form: noun
+
+té_666:
+  spanish: té
+  english: ["tea"]
+  form: noun
+
+jugo_667:
+  spanish: jugo
+  english: ["juice"]
+  form: noun
+
+zumo_668:
+  spanish: zumo
+  english: ["juice"]
+  form: noun
+
+vino_669:
+  spanish: vino
+  english: ["wine"]
+  form: noun
+
+cerveza_670:
+  spanish: cerveza
+  english: ["beer"]
+  form: noun
+
+bebida_671:
+  spanish: bebida
+  english: ["drink", "beverage"]
+  form: noun
+
+desayuno_672:
+  spanish: desayuno
+  english: ["breakfast"]
+  form: noun
+
+almuerzo_673:
+  spanish: almuerzo
+  english: ["lunch"]
+  form: noun
+
+cena_674:
+  spanish: cena
+  english: ["dinner"]
+  form: noun
+
+menú_675:
+  spanish: menú
+  english: ["menu"]
+  form: noun
+
+receta_676:
+  spanish: receta
+  english: ["recipe", "prescription"]
+  form: noun
+
+sabor_677:
+  spanish: sabor
+  english: ["flavor", "taste"]
+  form: noun
+
+olor_678:
+  spanish: olor
+  english: ["smell", "odor"]
+  form: noun
+
+ruido_679:
+  spanish: ruido
+  english: ["noise"]
+  form: noun
+
+silencio_680:
+  spanish: silencio
+  english: ["silence"]
+  form: noun
+
+sonido_681:
+  spanish: sonido
+  english: ["sound"]
+  form: noun
+
+canción_682:
+  spanish: canción
+  english: ["song"]
+  form: noun
+
+ritmo_683:
+  spanish: ritmo
+  english: ["rhythm"]
+  form: noun
+
+piano_684:
+  spanish: piano
+  english: ["piano"]
+  form: noun
+
+guitarra_685:
+  spanish: guitarra
+  english: ["guitar"]
+  form: noun
+
+instrumento_686:
+  spanish: instrumento
+  english: ["instrument"]
+  form: noun
+
+deporte_687:
+  spanish: deporte
+  english: ["sport"]
+  form: noun
+
+fútbol_688:
+  spanish: fútbol
+  english: ["soccer", "football"]
+  form: noun
+
+baloncesto_689:
+  spanish: baloncesto
+  english: ["basketball"]
+  form: noun
+
+tenis_690:
+  spanish: tenis
+  english: ["tennis"]
+  form: noun
+
+natación_691:
+  spanish: natación
+  english: ["swimming"]
+  form: noun
+
+equipo_692:
+  spanish: equipo
+  english: ["team", "equipment"]
+  form: noun
+
+jugador_693:
+  spanish: ["jugador", "jugadora"]
+  english: ["player"]
+  form: noun
+
+entrenador_694:
+  spanish: ["entrenador", "entrenadora"]
+  english: ["coach", "trainer"]
+  form: noun
+
+competencia_695:
+  spanish: competencia
+  english: ["competition"]
+  form: noun
+
+premio_696:
+  spanish: premio
+  english: ["prize", "award"]
+  form: noun
+
+victoria_697:
+  spanish: victoria
+  english: ["victory"]
+  form: noun
+
+derrota_698:
+  spanish: derrota
+  english: ["defeat"]
+  form: noun
+
+gol_699:
+  spanish: gol
+  english: ["goal"]
+  form: noun
+
+punto_700:
+  spanish: punto
+  english: ["point"]
+  form: noun
+
+record_701:
+  spanish: récord
+  english: ["record"]
+  form: noun
+
+salud_702:
+  spanish: salud
+  english: ["health"]
+  form: noun
+
+enfermedad_703:
+  spanish: enfermedad
+  english: ["disease", "illness"]
+  form: noun
+
+médico_704:
+  spanish: ["médico", "médica"]
+  english: ["doctor", "medical"]
+  form: noun
+
+enfermero_705:
+  spanish: ["enfermero", "enfermera"]
+  english: ["nurse"]
+  form: noun
+
+paciente_706:
+  spanish: paciente
+  english: ["patient"]
+  form: noun
+
+medicamento_707:
+  spanish: medicamento
+  english: ["medication"]
+  form: noun
+
+medicina_708:
+  spanish: medicina
+  english: ["medicine"]
+  form: noun
+
+pastilla_709:
+  spanish: pastilla
+  english: ["pill", "tablet"]
+  form: noun
+
+vacuna_710:
+  spanish: vacuna
+  english: ["vaccine"]
+  form: noun
+
+operación_711:
+  spanish: operación
+  english: ["operation", "surgery"]
+  form: noun
+
+tratamiento_712:
+  spanish: tratamiento
+  english: ["treatment"]
+  form: noun
+
+síntoma_713:
+  spanish: síntoma
+  english: ["symptom"]
+  form: noun
+
+fiebre_714:
+  spanish: fiebre
+  english: ["fever"]
+  form: noun
+
+gripe_715:
+  spanish: gripe
+  english: ["flu"]
+  form: noun
+
+tos_716:
+  spanish: tos
+  english: ["cough"]
+  form: noun
+
+herida_717:
+  spanish: herida
+  english: ["wound", "injury"]
+  form: noun
+
+accidente_718:
+  spanish: accidente
+  english: ["accident"]
+  form: noun
+
+emergencia_719:
+  spanish: emergencia
+  english: ["emergency"]
+  form: noun
+
+ambulancia_720:
+  spanish: ambulancia
+  english: ["ambulance"]
+  form: noun
+
+bombero_721:
+  spanish: ["bombero", "bombera"]
+  english: ["firefighter"]
+  form: noun
+
+incendio_722:
+  spanish: incendio
+  english: ["fire"]
+  form: noun
+
+peligroso_723:
+  spanish: ["peligroso", "peligrosa"]
+  english: ["dangerous"]
+  form: adjective
+
+seguro_724:
+  spanish: seguro
+  english: ["insurance", "safe"]
+  form: noun
+
+abogado_725:
+  spanish: ["abogado", "abogada"]
+  english: ["lawyer"]
+  form: noun
+
+juez_726:
+  spanish: ["juez", "jueza"]
+  english: ["judge"]
+  form: noun
+
+tribunal_727:
+  spanish: tribunal
+  english: ["court"]
+  form: noun
+
+crimen_728:
+  spanish: crimen
+  english: ["crime"]
+  form: noun
+
+delito_729:
+  spanish: delito
+  english: ["crime", "offense"]
+  form: noun
+
+ladrón_730:
+  spanish: ["ladrón", "ladrona"]
+  english: ["thief"]
+  form: noun
+
+víctima_731:
+  spanish: víctima
+  english: ["victim"]
+  form: noun
+
+testigo_732:
+  spanish: testigo
+  english: ["witness"]
+  form: noun
+
+cárcel_733:
+  spanish: cárcel
+  english: ["prison", "jail"]
+  form: noun
+
+culpable_734:
+  spanish: culpable
+  english: ["guilty"]
+  form: adjective
+
+inocente_735:
+  spanish: inocente
+  english: ["innocent"]
+  form: adjective
+
+justicia_736:
+  spanish: justicia
+  english: ["justice"]
+  form: noun
+
+verdadero_737:
+  spanish: ["verdadero", "verdadera"]
+  english: ["true", "real"]
+  form: adjective
+
+falso_738:
+  spanish: ["falso", "falsa"]
+  english: ["false", "fake"]
+  form: adjective
+
+mentira_739:
+  spanish: mentira
+  english: ["lie"]
+  form: noun
+
+secreto_740:
+  spanish: secreto
+  english: ["secret"]
+  form: noun
+
+promesa_741:
+  spanish: promesa
+  english: ["promise"]
+  form: noun
+
+confianza_742:
+  spanish: confianza
+  english: ["trust", "confidence"]
+  form: noun
+
+respeto_743:
+  spanish: respeto
+  english: ["respect"]
+  form: noun
+
+amistad_744:
+  spanish: amistad
+  english: ["friendship"]
+  form: noun
+
+enemigo_745:
+  spanish: ["enemigo", "enemiga"]
+  english: ["enemy"]
+  form: noun
+
+vecino_746:
+  spanish: ["vecino", "vecina"]
+  english: ["neighbor"]
+  form: noun
+
+extranjero_747:
+  spanish: ["extranjero", "extranjera"]
+  english: ["foreigner", "foreign"]
+  form: noun
+
+ciudadano_748:
+  spanish: ["ciudadano", "ciudadana"]
+  english: ["citizen"]
+  form: noun
+
+presidente_749:
+  spanish: ["presidente", "presidenta"]
+  english: ["president"]
+  form: noun
+
+ministro_750:
+  spanish: ["ministro", "ministra"]
+  english: ["minister"]
+  form: noun
+
+elección_751:
+  spanish: elección
+  english: ["election"]
+  form: noun
+
+voto_752:
+  spanish: voto
+  english: ["vote"]
+  form: noun
+
+democracia_753:
+  spanish: democracia
+  english: ["democracy"]
+  form: noun
+
+congreso_754:
+  spanish: congreso
+  english: ["congress"]
+  form: noun
+
+parlamento_755:
+  spanish: parlamento
+  english: ["parliament"]
+  form: noun
+
+constitución_756:
+  spanish: constitución
+  english: ["constitution"]
+  form: noun
+
+reforma_757:
+  spanish: reforma
+  english: ["reform"]
+  form: noun
+
+crisis_758:
+  spanish: crisis
+  english: ["crisis"]
+  form: noun
+
+conflicto_759:
+  spanish: conflicto
+  english: ["conflict"]
+  form: noun
+
+paz_760:
+  spanish: paz
+  english: ["peace"]
+  form: noun
+
+acuerdo_761:
+  spanish: acuerdo
+  english: ["agreement"]
+  form: noun
+
+tratado_762:
+  spanish: tratado
+  english: ["treaty"]
+  form: noun
+
+frontera_763:
+  spanish: frontera
+  english: ["border"]
+  form: noun
+
+bandera_764:
+  spanish: bandera
+  english: ["flag"]
+  form: noun
+
+himno_765:
+  spanish: himno
+  english: ["anthem"]
+  form: noun
+
+patria_766:
+  spanish: patria
+  english: ["homeland"]
+  form: noun
+
+nación_767:
+  spanish: nación
+  english: ["nation"]
+  form: noun
+
+imperio_768:
+  spanish: imperio
+  english: ["empire"]
+  form: noun
+
+colonia_769:
+  spanish: colonia
+  english: ["colony"]
+  form: noun
+
+independencia_770:
+  spanish: independencia
+  english: ["independence"]
+  form: noun
+
+revolución_771:
+  spanish: revolución
+  english: ["revolution"]
+  form: noun
+
+batalla_772:
+  spanish: batalla
+  english: ["battle"]
+  form: noun
+
+ejército_773:
+  spanish: ejército
+  english: ["army"]
+  form: noun
+
+soldado_774:
+  spanish: soldado
+  english: ["soldier"]
+  form: noun
+
+arma_775:
+  spanish: arma
+  english: ["weapon"]
+  form: noun
+
+pistola_776:
+  spanish: pistola
+  english: ["pistol", "gun"]
+  form: noun
+
+bala_777:
+  spanish: bala
+  english: ["bullet"]
+  form: noun
+
+bomba_778:
+  spanish: bomba
+  english: ["bomb"]
+  form: noun
+
+explosión_779:
+  spanish: explosión
+  english: ["explosion"]
+  form: noun
+
+héroe_780:
+  spanish: ["héroe", "heroína"]
+  english: ["hero"]
+  form: noun
+
+valiente_781:
+  spanish: valiente
+  english: ["brave"]
+  form: adjective
+
+cobarde_782:
+  spanish: cobarde
+  english: ["coward"]
+  form: adjective
+
+loco_783:
+  spanish: ["loco", "loca"]
+  english: ["crazy"]
+  form: adjective
+
+inteligente_784:
+  spanish: inteligente
+  english: ["intelligent"]
+  form: adjective
+
+tonto_785:
+  spanish: ["tonto", "tonta"]
+  english: ["stupid", "silly"]
+  form: adjective
+
+listo_786:
+  spanish: ["listo", "lista"]
+  english: ["smart", "ready"]
+  form: adjective
+
+sabio_787:
+  spanish: ["sabio", "sabia"]
+  english: ["wise"]
+  form: adjective
+
+conocido_788:
+  spanish: ["conocido", "conocida"]
+  english: ["known", "famous"]
+  form: adjective
+
+famoso_789:
+  spanish: ["famoso", "famosa"]
+  english: ["famous"]
+  form: adjective
+
+popular_790:
+  spanish: popular
+  english: ["popular"]
+  form: adjective
+
+común_791:
+  spanish: común
+  english: ["common"]
+  form: adjective
+
+raro_792:
+  spanish: ["raro", "rara"]
+  english: ["rare", "strange"]
+  form: adjective
+
+normal_793:
+  spanish: normal
+  english: ["normal"]
+  form: adjective
+
+típico_794:
+  spanish: ["típico", "típica"]
+  english: ["typical"]
+  form: adjective
+
+exacto_795:
+  spanish: ["exacto", "exacta"]
+  english: ["exact"]
+  form: adjective
+
+aproximado_796:
+  spanish: ["aproximado", "aproximada"]
+  english: ["approximate"]
+  form: adjective
+
+perfecto_797:
+  spanish: ["perfecto", "perfecta"]
+  english: ["perfect"]
+  form: adjective
+
+terrible_798:
+  spanish: terrible
+  english: ["terrible"]
+  form: adjective
+
+horrible_799:
+  spanish: horrible
+  english: ["horrible"]
+  form: adjective
+
+maravilloso_800:
+  spanish: ["maravilloso", "maravillosa"]
+  english: ["wonderful"]
+  form: adjective
+
+increíble_801:
+  spanish: increíble
+  english: ["incredible"]
+  form: adjective
+
+fantástico_802:
+  spanish: ["fantástico", "fantástica"]
+  english: ["fantastic"]
+  form: adjective
+
+excelente_803:
+  spanish: excelente
+  english: ["excellent"]
+  form: adjective
+
+genial_804:
+  spanish: genial
+  english: ["great", "brilliant"]
+  form: adjective
+
+estupendo_805:
+  spanish: ["estupendo", "estupenda"]
+  english: ["wonderful", "great"]
+  form: adjective
+
+alegre_806:
+  spanish: alegre
+  english: ["happy", "cheerful"]
+  form: adjective
+
+feliz_807:
+  spanish: feliz
+  english: ["happy"]
+  form: adjective
+
+contento_808:
+  spanish: ["contento", "contenta"]
+  english: ["happy", "content"]
+  form: adjective
+
+enfadado_809:
+  spanish: ["enfadado", "enfadada"]
+  english: ["angry"]
+  form: adjective
+
+enojado_810:
+  spanish: ["enojado", "enojada"]
+  english: ["angry"]
+  form: adjective
+
+nervioso_811:
+  spanish: ["nervioso", "nerviosa"]
+  english: ["nervous"]
+  form: adjective
+
+tranquilo_812:
+  spanish: ["tranquilo", "tranquila"]
+  english: ["calm", "quiet"]
+  form: adjective
+
+cansado_813:
+  spanish: ["cansado", "cansada"]
+  english: ["tired"]
+  form: adjective
+
+preocupado_814:
+  spanish: ["preocupado", "preocupada"]
+  english: ["worried"]
+  form: adjective
+
+sorprendido_815:
+  spanish: ["sorprendido", "sorprendida"]
+  english: ["surprised"]
+  form: adjective
+
+confundido_816:
+  spanish: ["confundido", "confundida"]
+  english: ["confused"]
+  form: adjective
+
+aburrido_817:
+  spanish: ["aburrido", "aburrida"]
+  english: ["bored", "boring"]
+  form: adjective
+
+interesante_818:
+  spanish: interesante
+  english: ["interesting"]
+  form: adjective
+
+divertido_819:
+  spanish: ["divertido", "divertida"]
+  english: ["fun", "funny"]
+  form: adjective
+
+gracioso_820:
+  spanish: ["gracioso", "graciosa"]
+  english: ["funny"]
+  form: adjective
+
+serio_821:
+  spanish: ["serio", "seria"]
+  english: ["serious"]
+  form: adjective
+
+amable_822:
+  spanish: amable
+  english: ["kind", "friendly"]
+  form: adjective
+
+simpático_823:
+  spanish: ["simpático", "simpática"]
+  english: ["nice", "likeable"]
+  form: adjective
+
+antipático_824:
+  spanish: ["antipático", "antipática"]
+  english: ["unpleasant"]
+  form: adjective
+
+educado_825:
+  spanish: ["educado", "educada"]
+  english: ["polite"]
+  form: adjective
+
+maleducado_826:
+  spanish: ["maleducado", "maleducada"]
+  english: ["rude"]
+  form: adjective
+
+generoso_827:
+  spanish: ["generoso", "generosa"]
+  english: ["generous"]
+  form: adjective
+
+tacaño_828:
+  spanish: ["tacaño", "tacaña"]
+  english: ["stingy"]
+  form: adjective
+
+honesto_829:
+  spanish: ["honesto", "honesta"]
+  english: ["honest"]
+  form: adjective
+
+sincero_830:
+  spanish: ["sincero", "sincera"]
+  english: ["sincere"]
+  form: adjective
+
+orgulloso_831:
+  spanish: ["orgulloso", "orgullosa"]
+  english: ["proud"]
+  form: adjective
+
+humilde_832:
+  spanish: humilde
+  english: ["humble"]
+  form: adjective
+
+paciente_833:
+  spanish: paciente
+  english: ["patient"]
+  form: adjective
+
+impaciente_834:
+  spanish: impaciente
+  english: ["impatient"]
+  form: adjective
+
+responsable_835:
+  spanish: responsable
+  english: ["responsible"]
+  form: adjective
+
+irresponsable_836:
+  spanish: irresponsable
+  english: ["irresponsible"]
+  form: adjective
+
+independiente_837:
+  spanish: independiente
+  english: ["independent"]
+  form: adjective
+
+dependiente_838:
+  spanish: dependiente
+  english: ["dependent"]
+  form: adjective
+
+capaz_839:
+  spanish: capaz
+  english: ["capable"]
+  form: adjective
+
+incapaz_840:
+  spanish: incapaz
+  english: ["incapable"]
+  form: adjective
+
+disponible_841:
+  spanish: disponible
+  english: ["available"]
+  form: adjective
+
+ocupado_842:
+  spanish: ["ocupado", "ocupada"]
+  english: ["busy", "occupied"]
+  form: adjective
+
+privado_843:
+  spanish: ["privado", "privada"]
+  english: ["private"]
+  form: adjective
+
+oficial_844:
+  spanish: oficial
+  english: ["official"]
+  form: adjective
+
+moderno_845:
+  spanish: ["moderno", "moderna"]
+  english: ["modern"]
+  form: adjective
+
+antiguo_846:
+  spanish: ["antiguo", "antigua"]
+  english: ["old", "ancient"]
+  form: adjective
+
+reciente_847:
+  spanish: reciente
+  english: ["recent"]
+  form: adjective
+
+actual_848:
+  spanish: actual
+  english: ["current"]
+  form: adjective
+
+próximo_849:
+  spanish: ["próximo", "próxima"]
+  english: ["next"]
+  form: adjective
+
+anterior_850:
+  spanish: anterior
+  english: ["previous"]
+  form: adjective
+
+posterior_851:
+  spanish: posterior
+  english: ["later", "subsequent"]
+  form: adjective
+
+inicial_852:
+  spanish: inicial
+  english: ["initial"]
+  form: adjective
+
+central_853:
+  spanish: central
+  english: ["central"]
+  form: adjective
+
+exterior_854:
+  spanish: exterior
+  english: ["exterior", "outside"]
+  form: adjective
+
+superior_855:
+  spanish: superior
+  english: ["upper", "superior"]
+  form: adjective
+
+inferior_856:
+  spanish: inferior
+  english: ["lower", "inferior"]
+  form: adjective
+
+básico_857:
+  spanish: ["básico", "básica"]
+  english: ["basic"]
+  form: adjective
+
+fundamental_858:
+  spanish: fundamental
+  english: ["fundamental"]
+  form: adjective
+
+esencial_859:
+  spanish: esencial
+  english: ["essential"]
+  form: adjective
+
+adicional_860:
+  spanish: adicional
+  english: ["additional"]
+  form: adjective
+
+suficiente_861:
+  spanish: suficiente
+  english: ["enough", "sufficient"]
+  form: adjective
+
+exagerado_862:
+  spanish: ["exagerado", "exagerada"]
+  english: ["exaggerated"]
+  form: adjective
+
+absoluto_863:
+  spanish: ["absoluto", "absoluta"]
+  english: ["absolute"]
+  form: adjective
+
+relativo_864:
+  spanish: ["relativo", "relativa"]
+  english: ["relative"]
+  form: adjective
+
+obvio_865:
+  spanish: ["obvio", "obvia"]
+  english: ["obvious"]
+  form: adjective
+
+evidente_866:
+  spanish: evidente
+  english: ["evident"]
+  form: adjective
+
+claro_867:
+  spanish: ["claro", "clara"]
+  english: ["clear"]
+  form: adjective
+
+oscuro_868:
+  spanish: ["oscuro", "oscura"]
+  english: ["dark"]
+  form: adjective
+
+brillante_869:
+  spanish: brillante
+  english: ["bright", "brilliant"]
+  form: adjective
+
+opaco_870:
+  spanish: ["opaco", "opaca"]
+  english: ["opaque"]
+  form: adjective
+
+transparente_871:
+  spanish: transparente
+  english: ["transparent"]
+  form: adjective
+
+suave_872:
+  spanish: suave
+  english: ["soft", "smooth"]
+  form: adjective
+
+duro_873:
+  spanish: ["duro", "dura"]
+  english: ["hard"]
+  form: adjective
+
+blando_874:
+  spanish: ["blando", "blanda"]
+  english: ["soft"]
+  form: adjective
+
+seco_875:
+  spanish: ["seco", "seca"]
+  english: ["dry"]
+  form: adjective
+
+húmedo_876:
+  spanish: ["húmedo", "húmeda"]
+  english: ["humid", "wet"]
+  form: adjective
+
+mojado_877:
+  spanish: ["mojado", "mojada"]
+  english: ["wet"]
+  form: adjective
+
+pesado_878:
+  spanish: ["pesado", "pesada"]
+  english: ["heavy"]
+  form: adjective
+
+ligero_879:
+  spanish: ["ligero", "ligera"]
+  english: ["light"]
+  form: adjective
+
+suelto_880:
+  spanish: ["suelto", "suelta"]
+  english: ["loose"]
+  form: adjective
+
+apretado_881:
+  spanish: ["apretado", "apretada"]
+  english: ["tight"]
+  form: adjective
+
+redondo_882:
+  spanish: ["redondo", "redonda"]
+  english: ["round"]
+  form: adjective
+
+cuadrado_883:
+  spanish: ["cuadrado", "cuadrada"]
+  english: ["square"]
+  form: adjective
+
+triangular_884:
+  spanish: triangular
+  english: ["triangular"]
+  form: adjective
+
+recto_885:
+  spanish: ["recto", "recta"]
+  english: ["straight"]
+  form: adjective
+
+curvo_886:
+  spanish: ["curvo", "curva"]
+  english: ["curved"]
+  form: adjective
+
+plano_887:
+  spanish: ["plano", "plana"]
+  english: ["flat"]
+  form: adjective
+
+vertical_888:
+  spanish: vertical
+  english: ["vertical"]
+  form: adjective
+
+horizontal_889:
+  spanish: horizontal
+  english: ["horizontal"]
+  form: adjective
+
+paralelo_890:
+  spanish: ["paralelo", "paralela"]
+  english: ["parallel"]
+  form: adjective
+
+perpendicular_891:
+  spanish: perpendicular
+  english: ["perpendicular"]
+  form: adjective
+
+enorme_892:
+  spanish: enorme
+  english: ["enormous"]
+  form: adjective
+
+gigante_893:
+  spanish: gigante
+  english: ["giant"]
+  form: adjective
+
+diminuto_894:
+  spanish: ["diminuto", "diminuta"]
+  english: ["tiny"]
+  form: adjective
+
+inmenso_895:
+  spanish: ["inmenso", "inmensa"]
+  english: ["immense"]
+  form: adjective
+
+vasto_896:
+  spanish: ["vasto", "vasta"]
+  english: ["vast"]
+  form: adjective
+
+amplio_897:
+  spanish: ["amplio", "amplia"]
+  english: ["wide", "ample"]
+  form: adjective
+
+reducido_898:
+  spanish: ["reducido", "reducida"]
+  english: ["reduced"]
+  form: adjective
+
+extenso_899:
+  spanish: ["extenso", "extensa"]
+  english: ["extensive"]
+  form: adjective
+
+breve_900:
+  spanish: breve
+  english: ["brief"]
+  form: adjective
+
+eterno_901:
+  spanish: ["eterno", "eterna"]
+  english: ["eternal"]
+  form: adjective
+
+permanente_902:
+  spanish: permanente
+  english: ["permanent"]
+  form: adjective
+
+temporal_903:
+  spanish: temporal
+  english: ["temporary"]
+  form: adjective
+
+inmediato_904:
+  spanish: ["inmediato", "inmediata"]
+  english: ["immediate"]
+  form: adjective
+
+urgente_905:
+  spanish: urgente
+  english: ["urgent"]
+  form: adjective
+
+constante_906:
+  spanish: constante
+  english: ["constant"]
+  form: adjective
+
+variable_907:
+  spanish: variable
+  english: ["variable"]
+  form: adjective
+
+fijo_908:
+  spanish: ["fijo", "fija"]
+  english: ["fixed"]
+  form: adjective
+
+móvil_909:
+  spanish: móvil
+  english: ["mobile"]
+  form: adjective
+
+estable_910:
+  spanish: estable
+  english: ["stable"]
+  form: adjective
+
+inestable_911:
+  spanish: inestable
+  english: ["unstable"]
+  form: adjective
+
+flexible_912:
+  spanish: flexible
+  english: ["flexible"]
+  form: adjective
+
+rígido_913:
+  spanish: ["rígido", "rígida"]
+  english: ["rigid"]
+  form: adjective
+
+elástico_914:
+  spanish: ["elástico", "elástica"]
+  english: ["elastic"]
+  form: adjective
+
+frágil_915:
+  spanish: frágil
+  english: ["fragile"]
+  form: adjective
+
+resistente_916:
+  spanish: resistente
+  english: ["resistant"]
+  form: adjective
+
+débil_917:
+  spanish: débil
+  english: ["weak"]
+  form: adjective
+
+robusto_918:
+  spanish: ["robusto", "robusta"]
+  english: ["robust"]
+  form: adjective
+
+sólido_919:
+  spanish: ["sólido", "sólida"]
+  english: ["solid"]
+  form: adjective
+
+líquido_920:
+  spanish: ["líquido", "líquida"]
+  english: ["liquid"]
+  form: adjective
+
+gaseoso_921:
+  spanish: ["gaseoso", "gaseosa"]
+  english: ["gaseous"]
+  form: adjective
+
+químico_922:
+  spanish: ["químico", "química"]
+  english: ["chemical"]
+  form: adjective
+
+físico_923:
+  spanish: ["físico", "física"]
+  english: ["physical"]
+  form: adjective
+
+biológico_924:
+  spanish: ["biológico", "biológica"]
+  english: ["biological"]
+  form: adjective
+
+científico_925:
+  spanish: ["científico", "científica"]
+  english: ["scientific"]
+  form: adjective
+
+tecnológico_926:
+  spanish: ["tecnológico", "tecnológica"]
+  english: ["technological"]
+  form: adjective
+
+digital_927:
+  spanish: digital
+  english: ["digital"]
+  form: adjective
+
+electrónico_928:
+  spanish: ["electrónico", "electrónica"]
+  english: ["electronic"]
+  form: adjective
+
+automático_929:
+  spanish: ["automático", "automática"]
+  english: ["automatic"]
+  form: adjective
+
+manual_930:
+  spanish: manual
+  english: ["manual"]
+  form: adjective
+
+industrial_931:
+  spanish: industrial
+  english: ["industrial"]
+  form: adjective
+
+comercial_932:
+  spanish: comercial
+  english: ["commercial"]
+  form: adjective
+
+financiero_933:
+  spanish: ["financiero", "financiera"]
+  english: ["financial"]
+  form: adjective
+
+legal_934:
+  spanish: legal
+  english: ["legal"]
+  form: adjective
+
+ilegal_935:
+  spanish: ilegal
+  english: ["illegal"]
+  form: adjective
+
+justo_936:
+  spanish: ["justo", "justa"]
+  english: ["fair"]
+  form: adjective
+
+injusto_937:
+  spanish: ["injusto", "injusta"]
+  english: ["unfair"]
+  form: adjective
+
+moral_938:
+  spanish: moral
+  english: ["moral"]
+  form: adjective
+
+ético_939:
+  spanish: ["ético", "ética"]
+  english: ["ethical"]
+  form: adjective
+
+religioso_940:
+  spanish: ["religioso", "religiosa"]
+  english: ["religious"]
+  form: adjective
+
+espiritual_941:
+  spanish: espiritual
+  english: ["spiritual"]
+  form: adjective
+
+sagrado_942:
+  spanish: ["sagrado", "sagrada"]
+  english: ["sacred"]
+  form: adjective
+
+divino_943:
+  spanish: ["divino", "divina"]
+  english: ["divine"]
+  form: adjective
+
+celestial_944:
+  spanish: celestial
+  english: ["celestial"]
+  form: adjective
+
+terrenal_945:
+  spanish: terrenal
+  english: ["earthly"]
+  form: adjective
+
+mundial_946:
+  spanish: mundial
+  english: ["global", "worldwide"]
+  form: adjective
+
+universal_947:
+  spanish: universal
+  english: ["universal"]
+  form: adjective
+
+global_948:
+  spanish: global
+  english: ["global"]
+  form: adjective
+
+regional_949:
+  spanish: regional
+  english: ["regional"]
+  form: adjective
+
+provincial_950:
+  spanish: provincial
+  english: ["provincial"]
+  form: adjective
+
+municipal_951:
+  spanish: municipal
+  english: ["municipal"]
+  form: adjective
+
+urbano_952:
+  spanish: ["urbano", "urbana"]
+  english: ["urban"]
+  form: adjective
+
+rural_953:
+  spanish: rural
+  english: ["rural"]
+  form: adjective
+
+costero_954:
+  spanish: ["costero", "costera"]
+  english: ["coastal"]
+  form: adjective
+
+continental_955:
+  spanish: continental
+  english: ["continental"]
+  form: adjective
+
+tropical_956:
+  spanish: tropical
+  english: ["tropical"]
+  form: adjective
+
+ártico_957:
+  spanish: ["ártico", "ártica"]
+  english: ["arctic"]
+  form: adjective
+
+desértico_958:
+  spanish: ["desértico", "desértica"]
+  english: ["desert"]
+  form: adjective
+
+montañoso_959:
+  spanish: ["montañoso", "montañosa"]
+  english: ["mountainous"]
+  form: adjective
+
+selvático_960:
+  spanish: ["selvático", "selvática"]
+  english: ["jungle"]
+  form: adjective
+
+norte_961:
+  spanish: norte
+  english: ["north"]
+  form: noun
+
+sur_962:
+  spanish: sur
+  english: ["south"]
+  form: noun
+
+este_963:
+  spanish: este
+  english: ["east"]
+  form: noun
+
+oeste_964:
+  spanish: oeste
+  english: ["west"]
+  form: noun
+
+perro_965:
+  spanish: perro
+  english: ["dog"]
+  form: noun
+
+gato_966:
+  spanish: gato
+  english: ["cat"]
+  form: noun
+
+pájaro_967:
+  spanish: pájaro
+  english: ["bird"]
+  form: noun
+
+caballo_968:
+  spanish: caballo
+  english: ["horse"]
+  form: noun
+
+vaca_969:
+  spanish: vaca
+  english: ["cow"]
+  form: noun
+
+cerdo_970:
+  spanish: cerdo
+  english: ["pig"]
+  form: noun
+
+oveja_971:
+  spanish: oveja
+  english: ["sheep"]
+  form: noun
+
+león_972:
+  spanish: león
+  english: ["lion"]
+  form: noun
+
+tigre_973:
+  spanish: tigre
+  english: ["tiger"]
+  form: noun
+
+oso_974:
+  spanish: oso
+  english: ["bear"]
+  form: noun
+
+elefante_975:
+  spanish: elefante
+  english: ["elephant"]
+  form: noun
+
+mono_976:
+  spanish: mono
+  english: ["monkey"]
+  form: noun
+
+serpiente_977:
+  spanish: serpiente
+  english: ["snake"]
+  form: noun
+
+insecto_978:
+  spanish: insecto
+  english: ["insect"]
+  form: noun
+
+mariposa_979:
+  spanish: mariposa
+  english: ["butterfly"]
+  form: noun
+
+hormiga_980:
+  spanish: hormiga
+  english: ["ant"]
+  form: noun
+
+abeja_981:
+  spanish: abeja
+  english: ["bee"]
+  form: noun
+
+mosca_982:
+  spanish: mosca
+  english: ["fly"]
+  form: noun
+
+araña_983:
+  spanish: araña
+  english: ["spider"]
+  form: noun
+
+pez_984:
+  spanish: pez
+  english: ["fish"]
+  form: noun
+
+ballena_985:
+  spanish: ballena
+  english: ["whale"]
+  form: noun
+
+tiburón_986:
+  spanish: tiburón
+  english: ["shark"]
+  form: noun
+
+árbol_987:
+  spanish: árbol
+  english: ["tree"]
+  form: noun
+
+flor_988:
+  spanish: flor
+  english: ["flower"]
+  form: noun
+
+hoja_989:
+  spanish: hoja
+  english: ["leaf", "sheet"]
+  form: noun
+
+raíz_990:
+  spanish: raíz
+  english: ["root"]
+  form: noun
+
+rama_991:
+  spanish: rama
+  english: ["branch"]
+  form: noun
+
+semilla_992:
+  spanish: semilla
+  english: ["seed"]
+  form: noun
+
+hierba_993:
+  spanish: hierba
+  english: ["grass", "herb"]
+  form: noun
+
+césped_994:
+  spanish: césped
+  english: ["lawn"]
+  form: noun
+
+nube_995:
+  spanish: nube
+  english: ["cloud"]
+  form: noun
+
+lluvia_996:
+  spanish: lluvia
+  english: ["rain"]
+  form: noun
+
+nieve_997:
+  spanish: nieve
+  english: ["snow"]
+  form: noun
+
+viento_998:
+  spanish: viento
+  english: ["wind"]
+  form: noun
+
+tormenta_999:
+  spanish: tormenta
+  english: ["storm"]
+  form: noun
+
+estrella_1000:
+  spanish: estrella
+  english: ["star"]
+  form: noun
