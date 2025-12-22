@@ -372,6 +372,9 @@ YAML_HEADER = """# =============================================================
 #    - "deber_infinitive" -> use "deber + infinitive" (debo comer)
 #    - "present_subjunctive" -> use subjunctive mood (que coma)
 #
+#  5. If programaticaally modifying this file, it should use the same settings as the generate_sentences.py script,
+#     including recreating this header. Otherwise, edits should be done manually so as not to introduce unintended diffs.
+#
 # FIELDS:
 # - word: Key referencing an entry in common.yaml
 # - verb: Key referencing an entry in verbs.yaml
