@@ -3241,15 +3241,15 @@ sentences:
     english: you all are going to
   - spanish: van a
     english: they are going to
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "El chico delgado intenta y va a correr la maratón."
+  english: "The thin boy tries and is going to run the marathon."
 - word: mosca_982
   verb: pagar_87
   tense: preterite
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "Pagué mucho dinero para eliminar las moscas de mi casa."
+  english: "I paid a lot of money to eliminate the flies from my house."
 - word: posterior_851
   verb: casarse_284
   tense: present
@@ -3268,22 +3268,22 @@ sentences:
     english: you all will have
   - spanish: habrán
     english: they will have
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "Me caso ahora, pero habré pensado en una fecha posterior."
+  english: "I get married now, but I will have thought about a later date."
 - word: gigante_893
   verb: conseguir_108
   tense: present
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "Consigo un contrato gigante con la empresa internacional."
+  english: "I obtain a giant contract with the international company."
 - word: recurso_376
   verb: pertenecer_124
   tense: future
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "Estos recursos pertenecerán a la comunidad en el futuro."
+  english: "These resources will belong to the community in the future."
 - word: posible_179
   verb: participar_245
   tense: imperfect
@@ -3302,8 +3302,8 @@ sentences:
     english: you all were
   - spanish: estaban
     english: they were
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "Era posible que yo participaba en las reuniones, pero ayer estaba participando en otro evento importante."
+  english: "It was possible that I participated in the meetings, but yesterday I was participating in another important event."
 - word: muy_27
   verb: sugerir_255
   tense: imperfect
@@ -3322,8 +3322,8 @@ sentences:
     english: you all have (subj.)
   - spanish: hayan
     english: they have (subj.)
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "Me sugeria muy frecuentemente que cambiara de trabajo, y espero que haya sugerido lo mismo a los demás."
+  english: "He suggested to me very frequently that I should change jobs, and I hope that he has suggested the same to the others."
 - word: sueño_350
   verb: ser_1
   tense: present
@@ -3342,8 +3342,8 @@ sentences:
     english: you all are
   - spanish: están
     english: they are
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "Mi sueño es ser escritor, y ahora ese objetivo está cumplido gracias a mi esfuerzo."
+  english: "My dream is to be a writer, and now that goal is fulfilled thanks to my effort."
 - word: plaza_500
   verb: extender_221
   tense: present
@@ -3375,8 +3375,8 @@ sentences:
     english: you all are
   - spanish: están
     english: they are
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "La plaza se extiende hasta el rio, y espero que se haya extendido más porque el gobierno está extendiendo el parque."
+  english: "The plaza extends to the river, and I hope that it has extended more because the government is extending the park."
 - word: gordo_475
   verb: unir_215
   tense: preterite
@@ -3395,8 +3395,8 @@ sentences:
     english: you all will have
   - spanish: habrán
     english: they will have
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "El gato gordo unió a toda la familia, y para diciembre habré unido también a los vecinos."
+  english: "The fat cat united the whole family, and by December I will have united the neighbors as well."
 - word: oro_618
   verb: dar_10
   tense: present
@@ -3416,8 +3416,8 @@ sentences:
     english: you all want
   - spanish: quieren
     english: they want
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "Quiero dar todo el oro que tengo, pero ¡no des el tuyo sin pensarlo!"
+  english: "I want to give all the gold I have, but don't give yours without thinking about it!"
 - word: derrota_698
   verb: entender_46
   tense: future
@@ -3436,8 +3436,8 @@ sentences:
     english: you all are
   - spanish: son
     english: they are
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "La derrota será entendida mejor cuando entenderemos sus verdaderas causas."
+  english: "The defeat will be better understood when we will understand its true causes."
 - word: dos_51
   verb: abrir_64
   tense: preterite
@@ -3456,8 +3456,8 @@ sentences:
     english: you all need to
   - spanish: necesitan
     english: they need to
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "Necesito abrir las dos cajas que abrí ayer para revisar su contenido."
+  english: "I need to open the two boxes that I opened yesterday to check their contents."
 - word: libre_212
   verb: esperar_37
   tense: future
@@ -3489,8 +3489,8 @@ sentences:
     english: yourselves
   - spanish: se
     english: themselves
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "Necesito sentirme libre, así que me esperaré con paciencia y esperaré el momento adecuado."
+  english: "I need to feel free, so I will wait on myself patiently and I will wait for the right moment."
 - word: expresión_382
   verb: publicar_265
   tense: present
@@ -3522,16 +3522,16 @@ sentences:
     english: yourselves
   - spanish: se
     english: themselves
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "Me expreso con cada artículo que publico, y habré publicado mi mejor expresión para el viernes."
+  english: "I express myself with every article I publish, and I will have published my best expression by Friday."
 - word: triangular_884
   verb: representar_113
   tense: imperfect
   additional_elements:
   - conditional
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "El logo triangular representaba nuestra empresa, y representaría nuestra visión si lo adoptáramos oficialmente."
+  english: "The triangular logo represented our company, and it would represent our vision if we adopted it officially."
 - word: palabra_174
   verb: convertir_141
   tense: future
@@ -3550,16 +3550,16 @@ sentences:
     english: you all have to
   - spanish: tienen que
     english: they have to
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "Tengo que convertir cada palabra en acción, y convertiré mis ideas en realidad pronto."
+  english: "I have to convert each word into action, and I will convert my ideas into reality soon."
 - word: sólo_148
   verb: contar_35
   tense: preterite
   additional_elements:
   - conditional
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "Sólo conté la mitad de la historia, pero contaría todo si me prometieras guardar el secreto."
+  english: "I only told half of the story, but I would tell everything if you promised to keep the secret."
 - word: función_420
   verb: existir_39
   tense: present
@@ -3567,8 +3567,8 @@ sentences:
   - imperative_affirmative
   - imperfect_subjunctive
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "La función existe en el sistema; reconoce que si existiera otra versión, tendríamos más opciones."
+  english: "The function exists in the system; recognize that if another version existed, we would have more options."
 - word: sur_962
   verb: sentir_32
   tense: future
@@ -3600,23 +3600,23 @@ sentences:
     english: you all had
   - spanish: habían
     english: they had
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "Tengo que sentir el calor del sur porque nunca lo había sentido, pero sentiré la brisa marina pronto."
+  english: "I have to feel the warmth of the south because I had never felt it, but I will feel the sea breeze soon."
 - word: embargo_149
   verb: servir_55
   tense: future
   additional_elements:
   - imperative_negative
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "Sin embargo, no sirvas la cena todavía; serviré el postre primero."
+  english: "However, don't serve dinner yet; I will serve dessert first."
 - word: mono_976
   verb: sostener_181
   tense: imperfect
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "El mono sostenía una banana en cada mano."
+  english: "The monkey was holding a banana in each hand."
 - word: nosotros_80
   verb: recoger_131
   tense: imperfect
@@ -3636,8 +3636,8 @@ sentences:
     english: you all can
   - spanish: pueden
     english: they can
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "Nosotros recogíamos las hojas cada otoño, y ahora puedo recoger más rápido. ¡Recoge esas del jardín!"
+  english: "We used to pick up the leaves every autumn, and now I can pick up faster. Pick up those from the garden!"
 - word: pistola_776
   verb: aceptar_145
   tense: preterite
@@ -3656,8 +3656,8 @@ sentences:
     english: you all are going to
   - spanish: van a
     english: they are going to
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "Acepté la pistola como evidencia y voy a aceptar las demás armas mañana."
+  english: "I accepted the pistol as evidence and I am going to accept the other weapons tomorrow."
 - word: imagen_303
   verb: confiar_237
   tense: present
@@ -3676,16 +3676,16 @@ sentences:
     english: you all have to
   - spanish: tienen que
     english: they have to
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "Confío en esta imagen porque tengo que confiar en las pruebas."
+  english: "I trust this image because I have to trust the evidence."
 - word: lluvia_996
   verb: trabajar_41
   tense: future
   additional_elements:
   - imperfect_subjunctive
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "Si trabajara bajo la lluvia, trabajaré más rápido."
+  english: "If I worked in the rain, I will work faster."
 - word: ropa_526
   verb: pensar_27
   tense: future
@@ -3704,8 +3704,8 @@ sentences:
     english: you all have to
   - spanish: tienen que
     english: they have to
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "Pensaré en la ropa que tengo que comprar mañana."
+  english: "I will think about the clothes I have to buy tomorrow."
 - word: arma_775
   verb: enseñar_160
   tense: imperfect
@@ -3724,15 +3724,15 @@ sentences:
     english: you all are going to
   - spanish: van a
     english: they are going to
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "El instructor enseñaba el arma que iba a usar en la demostración."
+  english: "The instructor was showing the weapon he was going to use in the demonstration."
 - word: centro_232
   verb: tener_4
   tense: present
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "La ciudad tiene un centro histórico muy bonito."
+  english: "The city has a very beautiful historic center."
 - word: algodón_626
   verb: ganar_121
   tense: future
@@ -3751,8 +3751,8 @@ sentences:
     english: you all have (subj.)
   - spanish: hayan
     english: they have (subj.)
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "Ganaré el premio de algodón cuando haya demostrado su calidad."
+  english: "I will win the cotton prize when I have demonstrated its quality."
 - word: increíble_801
   verb: referir_176
   tense: preterite

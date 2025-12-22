@@ -1,6 +1,6 @@
 ---
 name: sentence-placeholder-filler
-description: Use this agent when you need to process entries from sentences.yaml that contain placeholder values that need to be filled in using data from common.yaml and verbs.yaml. This agent should be invoked when batch processing sentence templates or when new sentence entries are added that require placeholder resolution.\n\nExamples:\n\n<example>\nContext: The user has added new sentence templates to sentences.yaml that contain unfilled placeholders.\nuser: "I just added 5 new sentence entries to sentences.yaml, can you fill in the placeholders?"\nassistant: "I'll use the sentence-placeholder-filler agent to process those new entries and resolve all the placeholders."\n<commentary>\nSince the user needs to fill in placeholders in sentences.yaml using data from common.yaml and verbs.yaml, use the Task tool to launch the sentence-placeholder-filler agent. When told that batches are of a certain size, that many elements should be sent to the subagent at once in a way that will not overlap with any other subagent. For example, if told to process in batches of 5 with a maximum of 3 subagents, that would mean each subagent receives 5 entries to fill in placeholders for at a time.\n</commentary>\n</example>\n\n<example>\nContext: The user wants to process a specific batch of sentence entries.\nuser: "Please process entries 10-15 in sentences.yaml"\nassistant: "I'll launch the sentence-placeholder-filler agent to handle those specific entries."\n<commentary>\nThe user is requesting placeholder resolution for a specific range of entries in sentences.yaml, so use the sentence-placeholder-filler agent to process this batch.\n</commentary>\n</example>\n\n<example>\nContext: After updating common.yaml or verbs.yaml, sentences need to be reprocessed.\nuser: "I updated some verb conjugations in verbs.yaml, can you update the affected sentences?"\nassistant: "I'll use the sentence-placeholder-filler agent to reprocess the sentences that use those updated verbs."\n<commentary>\nSince source data in verbs.yaml has changed, use the sentence-placeholder-filler agent to ensure sentences.yaml reflects the updated values.\n</commentary>\n</example>
+description: Use this agent when you need to process entries from sentences.yaml that contain placeholder values that need to be filled in using data from common.yaml and verbs.yaml. This agent should be invoked when batch processing sentence templates or when new sentence entries are added that require placeholder resolution. The subagent will not make edits to the target file, rather it will report back with generations for the placeholders such that the calling agent can make the edits to the target file. This is so that if multiple subagents are run, they will not repeatedly block each other by editing a file that another is trying to edit, and that instead the calling agent will supervise merging in the desired generations.\n\nExamples:\n\n<example>\nContext: The user has added new sentence templates to sentences.yaml that contain unfilled placeholders.\nuser: "I just added 5 new sentence entries to sentences.yaml, can you fill in the placeholders?"\nassistant: "I'll use the sentence-placeholder-filler agent to process those new entries and resolve all the placeholders."\n<commentary>\nSince the user needs to fill in placeholders in sentences.yaml using data from common.yaml and verbs.yaml, use the Task tool to launch the sentence-placeholder-filler agent. When told that batches are of a certain size, that many elements should be sent to the subagent at once in a way that will not overlap with any other subagent. For example, if told to process in batches of 5 with a maximum of 3 subagents, that would mean each subagent receives 5 entries to fill in placeholders for at a time.\n</commentary>\n</example>\n\n<example>\nContext: The user wants to process a specific batch of sentence entries.\nuser: "Please process entries 10-15 in sentences.yaml"\nassistant: "I'll launch the sentence-placeholder-filler agent to handle those specific entries."\n<commentary>\nThe user is requesting placeholder resolution for a specific range of entries in sentences.yaml, so use the sentence-placeholder-filler agent to process this batch.\n</commentary>\n</example>\n\n<example>\nContext: After updating common.yaml or verbs.yaml, sentences need to be reprocessed.\nuser: "I updated some verb conjugations in verbs.yaml, can you update the affected sentences?"\nassistant: "I'll use the sentence-placeholder-filler agent to reprocess the sentences that use those updated verbs."\n<commentary>\nSince source data in verbs.yaml has changed, use the sentence-placeholder-filler agent to ensure sentences.yaml reflects the updated values.\n</commentary>\n</example>
 model: inherit
 color: blue
 ---
@@ -29,12 +29,13 @@ You will receive a batch of elements from `sentences.yaml` that contain placehol
    - Determine which source file each placeholder references (common.yaml vs verbs.yaml)
    - Look up the exact key/path in the appropriate source file
    - Extract the correct value, respecting any nested structure or conjugation requirements
-   - Replace the placeholder with the resolved value
+   - Create the replacement entries for the placeholders (but do not edit the target file)
 
 3. **Finally**, verify your output:
+   - Collate all of the processed elements into one result to hand off to the parent agent
    - Ensure no unresolved placeholders remain
    - Confirm the filled values make grammatical/contextual sense
-   - Check that the YAML structure remains valid
+   - Check that the YAML structure remains valid in the compiled result
 
 ## Key Principles
 
@@ -55,5 +56,6 @@ Return the processed sentence entries with all placeholders filled in, maintaini
 - Number of entries processed
 - Number of placeholders resolved
 - Any errors or missing references encountered
+- The resulting placeholders (embedded within their yaml entry) that have been generated
 
 Always read the source files fresh for each batch to ensure you're working with the latest data.
