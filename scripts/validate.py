@@ -9,6 +9,8 @@ from pydantic import BaseModel, field_validator
 from typing import Optional
 import re
 
+from generate_sentences import ADDITIONAL_ELEMENTS, BASIC_TENSES
+
 
 class WordEntry(BaseModel):
     """Model for a single word/phrase entry.
@@ -36,33 +38,11 @@ class VerbConjugations(BaseModel):
     ellos: str
 
 
-REQUIRED_TENSES = {'present', 'preterite', 'imperfect', 'future'}
+# Required tenses for verb conjugations (imported from generate_sentences.py)
+REQUIRED_TENSES = set(BASIC_TENSES)
 
-# Valid additional elements for sentence entries
-VALID_ADDITIONAL_ELEMENTS = {
-    "present_subjunctive",
-    "imperfect_subjunctive",
-    "conditional",
-    "imperative_affirmative",
-    "imperative_negative",
-    "present_perfect",
-    "past_perfect",
-    "future_perfect",
-    "conditional_perfect",
-    "present_perfect_subjunctive",
-    "past_perfect_subjunctive",
-    "present_progressive",
-    "past_progressive",
-    "deber_infinitive",
-    "poder_infinitive",
-    "querer_infinitive",
-    "tener_que_infinitive",
-    "necesitar_infinitive",
-    "ir_a_infinitive",
-    "passive_ser",
-    "passive_estar",
-    "reflexive",
-}
+# Valid additional elements for sentence entries (imported from generate_sentences.py)
+VALID_ADDITIONAL_ELEMENTS = set(ADDITIONAL_ELEMENTS)
 
 
 class VerbEntry(BaseModel):

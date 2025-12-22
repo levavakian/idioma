@@ -6,6 +6,7 @@ This script creates entries that pair words from common.yaml with verbs from ver
 ensuring each word and each verb+tense combination is used at least once.
 """
 
+import argparse
 import yaml
 import random
 from pathlib import Path
@@ -49,15 +50,29 @@ ADDITIONAL_ELEMENTS = [
     "present_progressive",      # estoy hablando
     "past_progressive",         # estaba hablando
 
-    # Modal constructions
-    "deber_infinitive",         # debo hablar (obligation)
-    "poder_infinitive",         # puedo hablar (ability)
-    "querer_infinitive",        # quiero hablar (desire)
-    "tener_que_infinitive",     # tengo que hablar (necessity)
-    "necesitar_infinitive",     # necesito hablar (need)
+    # Modal constructions - present
+    "deber_infinitive",              # debo hablar (obligation)
+    "poder_infinitive",              # puedo hablar (ability)
+    "querer_infinitive",             # quiero hablar (desire)
+    "tener_que_infinitive",          # tengo que hablar (necessity)
+    "necesitar_infinitive",          # necesito hablar (need)
+
+    # Modal constructions - past (imperfect)
+    "deber_infinitive_past",         # debía hablar (past obligation)
+    "poder_infinitive_past",         # podía hablar (past ability)
+    "querer_infinitive_past",        # quería hablar (past desire)
+    "tener_que_infinitive_past",     # tenía que hablar (past necessity)
+    "necesitar_infinitive_past",     # necesitaba hablar (past need)
+
+    # Modal constructions - future
+    "deber_infinitive_future",       # deberé hablar (future obligation)
+    "poder_infinitive_future",       # podré hablar (future ability)
+    "querer_infinitive_future",      # querré hablar (future desire)
+    "tener_que_infinitive_future",   # tendré que hablar (future necessity)
+    "necesitar_infinitive_future",   # necesitaré hablar (future need)
 
     # Near future
-    "ir_a_infinitive",          # voy a hablar
+    "ir_a_infinitive",               # voy a hablar
 
     # Passive constructions
     "passive_ser",              # es hablado
@@ -183,6 +198,91 @@ HELPER_CONJUGATIONS = {
         {"spanish": "necesitáis", "english": "you all need to"},
         {"spanish": "necesitan", "english": "they need to"},
     ],
+
+    # Modal constructions - past (imperfect)
+    "deber_infinitive_past": [
+        {"spanish": "debía", "english": "I had to/should have"},
+        {"spanish": "debías", "english": "you had to/should have"},
+        {"spanish": "debía", "english": "he/she had to/should have"},
+        {"spanish": "debíamos", "english": "we had to/should have"},
+        {"spanish": "debíais", "english": "you all had to/should have"},
+        {"spanish": "debían", "english": "they had to/should have"},
+    ],
+    "poder_infinitive_past": [
+        {"spanish": "podía", "english": "I could/was able to"},
+        {"spanish": "podías", "english": "you could/were able to"},
+        {"spanish": "podía", "english": "he/she could/was able to"},
+        {"spanish": "podíamos", "english": "we could/were able to"},
+        {"spanish": "podíais", "english": "you all could/were able to"},
+        {"spanish": "podían", "english": "they could/were able to"},
+    ],
+    "querer_infinitive_past": [
+        {"spanish": "quería", "english": "I wanted to"},
+        {"spanish": "querías", "english": "you wanted to"},
+        {"spanish": "quería", "english": "he/she wanted to"},
+        {"spanish": "queríamos", "english": "we wanted to"},
+        {"spanish": "queríais", "english": "you all wanted to"},
+        {"spanish": "querían", "english": "they wanted to"},
+    ],
+    "tener_que_infinitive_past": [
+        {"spanish": "tenía que", "english": "I had to"},
+        {"spanish": "tenías que", "english": "you had to"},
+        {"spanish": "tenía que", "english": "he/she had to"},
+        {"spanish": "teníamos que", "english": "we had to"},
+        {"spanish": "teníais que", "english": "you all had to"},
+        {"spanish": "tenían que", "english": "they had to"},
+    ],
+    "necesitar_infinitive_past": [
+        {"spanish": "necesitaba", "english": "I needed to"},
+        {"spanish": "necesitabas", "english": "you needed to"},
+        {"spanish": "necesitaba", "english": "he/she needed to"},
+        {"spanish": "necesitábamos", "english": "we needed to"},
+        {"spanish": "necesitabais", "english": "you all needed to"},
+        {"spanish": "necesitaban", "english": "they needed to"},
+    ],
+
+    # Modal constructions - future
+    "deber_infinitive_future": [
+        {"spanish": "deberé", "english": "I will have to/should"},
+        {"spanish": "deberás", "english": "you will have to/should"},
+        {"spanish": "deberá", "english": "he/she will have to/should"},
+        {"spanish": "deberemos", "english": "we will have to/should"},
+        {"spanish": "deberéis", "english": "you all will have to/should"},
+        {"spanish": "deberán", "english": "they will have to/should"},
+    ],
+    "poder_infinitive_future": [
+        {"spanish": "podré", "english": "I will be able to"},
+        {"spanish": "podrás", "english": "you will be able to"},
+        {"spanish": "podrá", "english": "he/she will be able to"},
+        {"spanish": "podremos", "english": "we will be able to"},
+        {"spanish": "podréis", "english": "you all will be able to"},
+        {"spanish": "podrán", "english": "they will be able to"},
+    ],
+    "querer_infinitive_future": [
+        {"spanish": "querré", "english": "I will want to"},
+        {"spanish": "querrás", "english": "you will want to"},
+        {"spanish": "querrá", "english": "he/she will want to"},
+        {"spanish": "querremos", "english": "we will want to"},
+        {"spanish": "querréis", "english": "you all will want to"},
+        {"spanish": "querrán", "english": "they will want to"},
+    ],
+    "tener_que_infinitive_future": [
+        {"spanish": "tendré que", "english": "I will have to"},
+        {"spanish": "tendrás que", "english": "you will have to"},
+        {"spanish": "tendrá que", "english": "he/she will have to"},
+        {"spanish": "tendremos que", "english": "we will have to"},
+        {"spanish": "tendréis que", "english": "you all will have to"},
+        {"spanish": "tendrán que", "english": "they will have to"},
+    ],
+    "necesitar_infinitive_future": [
+        {"spanish": "necesitaré", "english": "I will need to"},
+        {"spanish": "necesitarás", "english": "you will need to"},
+        {"spanish": "necesitará", "english": "he/she will need to"},
+        {"spanish": "necesitaremos", "english": "we will need to"},
+        {"spanish": "necesitaréis", "english": "you all will need to"},
+        {"spanish": "necesitarán", "english": "they will need to"},
+    ],
+
     "ir_a_infinitive": [
         {"spanish": "voy a", "english": "I am going to"},
         {"spanish": "vas a", "english": "you are going to"},
@@ -353,10 +453,19 @@ def generate_sentence_entries(word_keys: list, verb_keys: list, basic_tenses: li
     return entries
 
 
-class NoAliasDumper(yaml.SafeDumper):
-    """Custom YAML dumper that doesn't use anchors/aliases for duplicate data."""
+class QuotedDumper(yaml.SafeDumper):
+    """Custom YAML dumper that doesn't use anchors/aliases and quotes all strings."""
     def ignore_aliases(self, data):
         return True
+
+
+# Register a representer that quotes all strings
+def quoted_str_representer(dumper, data):
+    """Represent strings with quotes."""
+    return dumper.represent_scalar('tag:yaml.org,2002:str', data, style='"')
+
+
+QuotedDumper.add_representer(str, quoted_str_representer)
 
 
 def save_sentences_yaml(entries: list, filepath: Path):
@@ -369,21 +478,84 @@ def save_sentences_yaml(entries: list, filepath: Path):
         yaml.dump(
             {'sentences': entries},
             f,
-            Dumper=NoAliasDumper,
+            Dumper=QuotedDumper,
             allow_unicode=True,
             default_flow_style=False,
             sort_keys=False,
-            width=120,
+            width=float('inf'),  # Prevent line wrapping
         )
 
 
+def reroll_additional_elements(sentences_file: Path):
+    """
+    Reroll additional_elements and extra_infos for entries that still have <placeholder>.
+    
+    Args:
+        sentences_file: Path to the sentences.yaml file
+    """
+    print(f"Loading {sentences_file}...")
+    data = load_yaml(sentences_file)
+    entries = data.get('sentences', [])
+    print(f"  Found {len(entries)} entries")
+    
+    # Find entries with placeholders
+    placeholder_count = 0
+    for entry in entries:
+        if entry.get('spanish') == '<placeholder>' or entry.get('english') == '<placeholder>':
+            placeholder_count += 1
+            
+            # Regenerate additional elements
+            num_additional = random.choices([0, 1, 2], weights=[0.3, 0.5, 0.2])[0]
+            additional = random.sample(ADDITIONAL_ELEMENTS, min(num_additional, len(ADDITIONAL_ELEMENTS)))
+            
+            # Update entry
+            entry['additional_elements'] = additional
+            extra_infos = get_extra_infos(additional)
+            entry['extra_infos'] = extra_infos if extra_infos else None
+    
+    print(f"  Rerolled {placeholder_count} entries with placeholders")
+    
+    # Save updated file
+    print(f"\nSaving to {sentences_file}...")
+    save_sentences_yaml(entries, sentences_file)
+    
+    # Print stats
+    with_additional = sum(1 for e in entries if e['additional_elements'])
+    print(f"  Entries with additional elements: {with_additional} ({100*with_additional/len(entries):.1f}%)")
+    
+    print("\nDone!")
+
+
 def main():
-    random.seed(42)  # For reproducibility; remove for true randomness
+    parser = argparse.ArgumentParser(
+        description="Generate sentences.yaml with word/verb combinations for sentence practice."
+    )
+    parser.add_argument(
+        "--reroll-additional",
+        action="store_true",
+        help="Reroll additional_elements and extra_infos for entries that still have <placeholder>"
+    )
+    parser.add_argument(
+        "--seed",
+        type=int,
+        default=42,
+        help="Random seed for reproducibility (default: 42)"
+    )
+    args = parser.parse_args()
+    
+    random.seed(args.seed)
 
     words_dir = Path(__file__).parent.parent / "words"
+    sentences_file = words_dir / "sentences.yaml"
+    
+    # Handle --reroll-additional mode
+    if args.reroll_additional:
+        reroll_additional_elements(sentences_file)
+        return
+    
+    # Normal generation mode
     common_file = words_dir / "common.yaml"
     verbs_file = words_dir / "verbs.yaml"
-    sentences_file = words_dir / "sentences.yaml"
 
     # Load existing word files
     print(f"Loading {common_file}...")
