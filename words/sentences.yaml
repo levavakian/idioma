@@ -3030,22 +3030,22 @@ sentences:
     english: you all are
   - spanish: están
     english: they are
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "El diseño robusto estaba bien trabajado mientras el equipo trabajaba en las mejoras."
+  english: "The robust design was well worked while the team was working on the improvements."
 - word: aeropuerto_490
   verb: haber_3
   tense: future
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "Habrá un nuevo aeropuerto en la ciudad el próximo año."
+  english: "There will be a new airport in the city next year."
 - word: debajo_452
   verb: conseguir_235
   tense: future
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "Obtendremos el tesoro que está debajo del árbol."
+  english: "We will obtain the treasure that is underneath the tree."
 - word: derecha_252
   verb: suceder_99
   tense: imperfect
@@ -3064,8 +3064,8 @@ sentences:
     english: you all have (subj.)
   - spanish: hayan
     english: they have (subj.)
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "No creía que eso haya sucedido a la derecha del edificio."
+  english: "I did not believe that had happened to the right of the building."
 - word: pimienta_654
   verb: besar_268
   tense: future
@@ -3084,15 +3084,15 @@ sentences:
     english: you all had
   - spanish: habían
     english: they had
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "La pimienta que había besado sus labios te besará de nuevo cuando pruebes este plato."
+  english: "The pepper that had kissed your lips will kiss you again when you try this dish."
 - word: independencia_770
   verb: empezar_36
   tense: preterite
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "La lucha por la independencia empezó en el siglo diecinueve."
+  english: "The fight for independence started in the nineteenth century."
 - word: bebida_671
   verb: ocurrir_45
   tense: preterite
@@ -3124,38 +3124,38 @@ sentences:
     english: you all must/should
   - spanish: deben
     english: they must/should
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "Yo estaba preparando la bebida cuando ocurrió el accidente, y ahora debo limpiar todo."
+  english: "I was preparing the drink when the accident happened, and now I must clean everything."
 - word: hora_130
   verb: usar_93
   tense: present
   additional_elements:
   - conditional
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "Uso una hora cada día, pero usaría más tiempo si pudiera."
+  english: "I use one hour each day, but I would use more time if I could."
 - word: manzana_638
   verb: ganar_69
   tense: future
   additional_elements:
   - imperative_affirmative
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "Ganarás la manzana como premio. ¡Gana el juego!"
+  english: "You will win the apple as a prize. Win the game!"
 - word: semilla_992
   verb: reemplazar_292
   tense: imperfect
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "El agricultor reemplazaba cada semilla dañada con una nueva."
+  english: "The farmer replaced each damaged seed with a new one."
 - word: iglesia_343
   verb: hacer_5
   tense: preterite
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "Hicimos una donación a la iglesia el domingo pasado."
+  english: "We made a donation to the church last Sunday."
 - word: partido_309
   verb: explicar_79
   tense: preterite
@@ -3174,15 +3174,15 @@ sentences:
     english: you all will have
   - spanish: habrán
     english: they will have
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "El entrenador explicó las reglas del partido y dijo que para mañana habrá explicado todas las estrategias."
+  english: "The coach explained the rules of the match and said that by tomorrow he will have explained all the strategies."
 - word: mano_137
   verb: aprende_183
   tense: present
   additional_elements: []
   extra_infos: null
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "El niño aprende a escribir con la mano derecha."
+  english: "The boy learns to write with his right hand."
 - word: mundo_89
   verb: suponer_104
   tense: future
@@ -3201,8 +3201,8 @@ sentences:
     english: you all can
   - spanish: pueden
     english: they can
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "Si puedo suponer cómo será el mundo, supondré que será mejor."
+  english: "If I can suppose how the world will be, I will suppose that it will be better."
 - word: valor_328
   verb: aprovechar_157
   tense: future
@@ -3221,8 +3221,8 @@ sentences:
     english: you all had (subj.)
   - spanish: hubieran
     english: they had (subj.)
-  spanish: <placeholder>
-  english: <placeholder>
+  spanish: "Aprovecharé el valor de esta experiencia si hubiera aprovechado mejor las oportunidades anteriores."
+  english: "I will take advantage of the value of this experience if I had taken better advantage of previous opportunities."
 - word: delgado_476
   verb: intentar_92
   tense: present
