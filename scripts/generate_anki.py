@@ -2,9 +2,10 @@
 """
 Generate Anki decks from Spanish vocabulary YAML files.
 
-Creates two decks:
+Creates the following decks (both ordered and randomized versions):
 1. Words & Verbs deck (common.yaml + verbs.yaml)
 2. Complete deck (common.yaml + verbs.yaml + sentences.yaml)
+3. Sentences Only deck (sentences.yaml only)
 
 Each deck includes Spanish→English and English→Spanish cards with
 expandable extra info showing example sentences and conjugations.
@@ -688,12 +689,21 @@ def main():
     add_notes_to_deck(complete_deck, verb_notes_data, verb_model)
     add_notes_to_deck(complete_deck, sentence_notes_data, sentence_model)
 
+    # Sentences only deck (ordered)
+    SENTENCES_DECK_ID = COMPLETE_DECK_ID + 10
+    sentences_deck = genanki.Deck(
+        SENTENCES_DECK_ID,
+        'Spanish - Sentences Only'
+    )
+    add_notes_to_deck(sentences_deck, sentence_notes_data, sentence_model)
+
     # --- Create randomized decks ---
     print("Creating randomized decks...")
 
     # Use different deck IDs for random versions
     WORDS_VERBS_RANDOM_DECK_ID = WORDS_VERBS_DECK_ID + 1
     COMPLETE_RANDOM_DECK_ID = COMPLETE_DECK_ID + 1
+    SENTENCES_RANDOM_DECK_ID = SENTENCES_DECK_ID + 1
 
     # Words & Verbs deck (random)
     words_verbs_random_deck = genanki.Deck(
@@ -720,6 +730,15 @@ def main():
         note = genanki.Note(model=model, fields=data['fields'], tags=data['tags'])
         complete_random_deck.add_note(note)
 
+    # Sentences only deck (random)
+    sentences_random_deck = genanki.Deck(
+        SENTENCES_RANDOM_DECK_ID,
+        'Spanish - Sentences Only (Random)'
+    )
+    sentence_notes_shuffled = sentence_notes_data.copy()
+    random.shuffle(sentence_notes_shuffled)
+    add_notes_to_deck(sentences_random_deck, sentence_notes_shuffled, sentence_model)
+
     # Save all decks
     print("Saving decks...")
 
@@ -735,14 +754,23 @@ def main():
     complete_random_package = genanki.Package(complete_random_deck)
     complete_random_package.write_to_file(output_dir / 'spanish_complete_random.apkg')
 
+    sentences_package = genanki.Package(sentences_deck)
+    sentences_package.write_to_file(output_dir / 'spanish_sentences.apkg')
+
+    sentences_random_package = genanki.Package(sentences_random_deck)
+    sentences_random_package.write_to_file(output_dir / 'spanish_sentences_random.apkg')
+
     words_verbs_count = len(word_notes_data) + len(verb_notes_data)
     complete_count = words_verbs_count + len(sentence_notes_data)
+    sentences_count = len(sentence_notes_data)
 
     print(f"\nDecks saved to {output_dir}:")
     print(f"  - spanish_words_verbs.apkg ({words_verbs_count} notes, {words_verbs_count * 2} cards)")
     print(f"  - spanish_words_verbs_random.apkg ({words_verbs_count} notes, {words_verbs_count * 2} cards)")
     print(f"  - spanish_complete.apkg ({complete_count} notes, {complete_count * 2} cards)")
     print(f"  - spanish_complete_random.apkg ({complete_count} notes, {complete_count * 2} cards)")
+    print(f"  - spanish_sentences.apkg ({sentences_count} notes, {sentences_count * 2} cards)")
+    print(f"  - spanish_sentences_random.apkg ({sentences_count} notes, {sentences_count * 2} cards)")
 
 
 if __name__ == '__main__':
