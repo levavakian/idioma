@@ -4,8 +4,8 @@ Generate Anki decks from Spanish vocabulary YAML files.
 
 Creates the following decks (both ordered and randomized versions):
 1. Words & Verbs deck (common.yaml + verbs.yaml)
-2. Complete deck (common.yaml + verbs.yaml + sentences.yaml)
-3. Sentences Only deck (sentences.yaml only)
+2. Complete deck (common.yaml + verbs.yaml + sentences.yaml + extras.yaml)
+3. Sentences Only deck (sentences.yaml + extras.yaml)
 
 Each deck includes Spanish→English and English→Spanish cards with
 expandable extra info showing example sentences and conjugations.
@@ -643,18 +643,23 @@ def main():
     common = load_yaml(words_dir / 'common.yaml')
     verbs = load_yaml(words_dir / 'verbs.yaml')
     sentences_data = load_yaml(words_dir / 'sentences.yaml')
+    extras_data = load_yaml(words_dir / 'extras.yaml')
 
-    # Extract sentences list
+    # Extract sentences and extras lists
     sentences = sentences_data.get('sentences', [])
+    extras = extras_data.get('extras', [])
 
     # Remove comment keys from common and verbs
     common = {k: v for k, v in common.items() if isinstance(v, dict)}
     verbs = {k: v for k, v in verbs.items() if isinstance(v, dict)}
 
-    print(f"Loaded {len(common)} words, {len(verbs)} verbs, {len(sentences)} sentences")
+    print(f"Loaded {len(common)} words, {len(verbs)} verbs, {len(sentences)} sentences, {len(extras)} extras")
+
+    # Combine sentences and extras for processing
+    all_sentences = sentences + extras
 
     # Build sentence indexes
-    word_sentences, verb_sentences = build_sentence_index(sentences)
+    word_sentences, verb_sentences = build_sentence_index(all_sentences)
 
     # Create models
     word_model = create_word_model()
@@ -665,7 +670,7 @@ def main():
     print("Creating notes data...")
     word_notes_data = create_word_notes(common, word_sentences, word_model)
     verb_notes_data = create_verb_notes(verbs, verb_sentences, verb_model)
-    sentence_notes_data = create_sentence_notes(sentences, verbs, sentence_model)
+    sentence_notes_data = create_sentence_notes(all_sentences, verbs, sentence_model)
 
     print(f"Created {len(word_notes_data)} word notes, {len(verb_notes_data)} verb notes, {len(sentence_notes_data)} sentence notes")
 

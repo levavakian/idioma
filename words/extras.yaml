@@ -1,0 +1,24 @@
+# =============================================================================
+# EXTRAS.YAML - One-off Spanish Sentences
+# =============================================================================
+#
+# PURPOSE:
+# This file contains manually curated Spanish sentences that are not generated
+# via the sentence generation script. These are one-off sentences for specific
+# phrases or expressions that are useful to learn.
+#
+# STRUCTURE:
+# Each entry contains:
+# - spanish: The Spanish sentence
+# - english: The English translation
+# - extra_infos: (Optional) List of {spanish, english} pairs providing
+#   additional context or vocabulary notes
+#
+# These sentences will be included in the generated Anki decks alongside
+# the automatically generated sentences from sentences.yaml.
+#
+# =============================================================================
+
+"extras":
+- "spanish": "¿Podrías adelantar el asiento?"
+  "english": "Could you push the seat forward?"
